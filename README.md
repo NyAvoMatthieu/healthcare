@@ -363,7 +363,3 @@ pytest tests/ -v -k "schema"   # Filtrer par nom de test
 - [ ] Tableau de bord temps réel avec Grafana + SQLite
 
 ---
-
-## Licence
-
-MIT — Projet académique / portfolio Data Engineering.
