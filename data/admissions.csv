@@ -1,0 +1,501 @@
+admission_id,patient_id,date_admission,service,urgence,diagnostic,hopital_id,service_id,maladie_id
+A00001,P0082,2026-02-03,Urgences,1,Asthme aigu grave,H09,S03,M15
+A00002,P0072,2023-11-02,Neurologie,0,Pneumonie,H01,S02,M03
+A00003,P0048,2025-05-30,Réanimation,0,Hypertension artérielle,H19,S09,M05
+A00004,P0040,2025-01-02,Endocrinologie,0,Accident vasculaire cérébral,H12,S15,M02
+A00005,P0032,2025-04-12,Gynécologie,1,Insuffisance rénale chronique,H04,S06,M18
+A00006,P0096,2023-11-29,Endocrinologie,1,Insuffisance cardiaque,H05,S15,M08
+A00007,P0023,2024-11-11,Cardiologie,1,Fracture du col du fémur,H14,S01,M06
+A00008,P0053,2023-08-10,Pédiatrie,0,Fracture du col du fémur,H08,S05,M06
+A00009,P0005,2025-07-31,Chirurgie générale,0,Cancer du poumon,H16,S04,M07
+A00010,P0030,2025-03-27,Cardiologie,0,Cancer du poumon,H08,S01,M07
+A00011,P0009,2025-03-29,Gynécologie,1,Cholécystite aiguë,H09,S06,M17
+A00012,P0069,2024-06-18,Cardiologie,0,Diabète de type 2,H11,S01,M04
+A00013,P0034,2025-06-08,Neurologie,0,COVID-19,H02,S02,M20
+A00014,P0041,2023-08-25,Pneumologie,0,Cholécystite aiguë,H14,S10,M17
+A00015,P0074,2025-06-12,Pédiatrie,0,Accident vasculaire cérébral,H07,S05,M02
+A00016,P0069,2023-05-24,Gynécologie,1,Gastro-entérite aiguë,H07,S06,M14
+A00017,P0043,2024-09-07,Gynécologie,0,Diabète de type 2,H20,S06,M04
+A00018,P0086,2024-08-28,Gynécologie,0,Colique néphrétique,H14,S06,M13
+A00019,P0025,2023-12-23,Gastro-entérologie,0,Colique néphrétique,H14,S11,M13
+A00020,P0039,2024-09-14,Réanimation,0,Infarctus du myocarde,H13,S09,M01
+A00021,P0056,2025-08-10,Pneumologie,0,BPCO,H19,S10,M11
+A00022,P0087,2023-12-14,Réanimation,1,Thrombose veineuse profonde,H07,S09,M16
+A00023,P0037,2024-11-17,Gastro-entérologie,0,COVID-19,H17,S11,M20
+A00024,P0097,2024-04-05,Gastro-entérologie,1,Dépression sévère,H08,S11,M10
+A00025,P0019,2025-08-31,Cardiologie,0,Insuffisance cardiaque,H01,S01,M08
+A00026,P0099,2026-03-24,Oncologie,0,Gastro-entérite aiguë,H03,S08,M14
+A00027,P0090,2024-05-14,Oncologie,0,Colique néphrétique,H13,S08,M13
+A00028,P0089,2025-05-20,Endocrinologie,0,Diabète de type 2,H01,S15,M04
+A00029,P0090,2026-02-15,Oncologie,0,Accident vasculaire cérébral,H17,S08,M02
+A00030,P0016,2025-12-23,Urgences,1,Asthme aigu grave,H15,S03,M15
+A00031,P0077,2026-06-08,Psychiatrie,1,Asthme aigu grave,H11,S13,M15
+A00032,P0065,2025-07-02,Dermatologie,1,Insuffisance rénale chronique,H14,S14,M18
+A00033,P0096,2024-05-21,Oncologie,1,Appendicite aiguë,H16,S08,M09
+A00034,P0036,2024-07-16,Oncologie,0,Insuffisance cardiaque,H17,S08,M08
+A00035,P0092,2024-11-18,Chirurgie générale,0,Appendicite aiguë,H10,S04,M09
+A00036,P0070,2024-04-18,Urgences,0,Hypertension artérielle,H03,S03,M05
+A00037,P0020,2025-04-14,Neurologie,0,Gastro-entérite aiguë,H07,S02,M14
+A00038,P0060,2025-05-10,Cardiologie,0,Cancer du poumon,H14,S01,M07
+A00039,P0099,2026-03-25,Rhumatologie,0,Infarctus du myocarde,H19,S12,M01
+A00040,P0001,2025-05-08,Pédiatrie,0,Colique néphrétique,H12,S05,M13
+A00041,P0095,2024-03-27,Psychiatrie,0,COVID-19,H18,S13,M20
+A00042,P0035,2025-03-07,Oncologie,0,Infarctus du myocarde,H14,S08,M01
+A00043,P0087,2025-08-15,Rhumatologie,1,Fracture du col du fémur,H13,S12,M06
+A00044,P0080,2026-04-27,Cardiologie,0,Colique néphrétique,H18,S01,M13
+A00045,P0004,2023-10-05,Gastro-entérologie,1,Gastro-entérite aiguë,H03,S11,M14
+A00046,P0024,2024-11-01,Pédiatrie,0,Colique néphrétique,H02,S05,M13
+A00047,P0042,2024-07-23,Psychiatrie,1,Colique néphrétique,H11,S13,M13
+A00048,P0054,2025-08-21,Dermatologie,0,Pneumonie,H09,S14,M03
+A00049,P0070,2023-05-21,Gynécologie,1,Insuffisance cardiaque,H02,S06,M08
+A00050,P0084,2024-05-21,Psychiatrie,0,Infarctus du myocarde,H02,S13,M01
+A00051,P0003,2023-09-16,Urgences,0,Insuffisance cardiaque,H20,S03,M08
+A00052,P0015,2024-06-08,Chirurgie générale,1,Asthme aigu grave,H19,S04,M15
+A00053,P0022,2023-12-02,Pneumologie,1,Diabète de type 2,H20,S10,M04
+A00054,P0014,2026-03-25,Cardiologie,1,Dépression sévère,H19,S01,M10
+A00055,P0049,2023-06-05,Rhumatologie,0,Cancer du poumon,H13,S12,M07
+A00056,P0081,2026-05-14,Neurologie,1,Dépression sévère,H08,S02,M10
+A00057,P0073,2025-05-27,Gynécologie,1,Insuffisance rénale chronique,H02,S06,M18
+A00058,P0009,2023-01-26,Gastro-entérologie,1,BPCO,H17,S11,M11
+A00059,P0063,2025-07-30,Orthopédie,1,Sepsis,H04,S07,M12
+A00060,P0056,2024-07-07,Rhumatologie,0,Cholécystite aiguë,H06,S12,M17
+A00061,P0069,2026-04-28,Oncologie,0,Gastro-entérite aiguë,H16,S08,M14
+A00062,P0032,2024-05-14,Pédiatrie,1,Asthme aigu grave,H03,S05,M15
+A00063,P0073,2024-11-19,Gastro-entérologie,0,Colique néphrétique,H20,S11,M13
+A00064,P0042,2024-12-27,Oncologie,1,Cancer du poumon,H06,S08,M07
+A00065,P0044,2024-07-19,Endocrinologie,0,COVID-19,H09,S15,M20
+A00066,P0067,2025-04-12,Neurologie,0,Insuffisance cardiaque,H07,S02,M08
+A00067,P0098,2025-10-02,Rhumatologie,0,Thrombose veineuse profonde,H08,S12,M16
+A00068,P0003,2025-04-08,Pédiatrie,1,Insuffisance cardiaque,H03,S05,M08
+A00069,P0040,2026-02-07,Gynécologie,0,Thrombose veineuse profonde,H19,S06,M16
+A00070,P0055,2025-07-18,Gynécologie,0,Sepsis,H18,S06,M12
+A00071,P0033,2024-10-08,Neurologie,0,Cancer du poumon,H08,S02,M07
+A00072,P0069,2025-09-18,Chirurgie générale,0,Cancer du poumon,H06,S04,M07
+A00073,P0076,2023-07-25,Pneumologie,1,Dépression sévère,H17,S10,M10
+A00074,P0038,2024-09-11,Gynécologie,0,Fracture du col du fémur,H08,S06,M06
+A00075,P0069,2023-04-22,Pédiatrie,0,Accident vasculaire cérébral,H05,S05,M02
+A00076,P0090,2023-07-30,Gastro-entérologie,1,Thrombose veineuse profonde,H05,S11,M16
+A00077,P0074,2025-06-21,Oncologie,0,Thrombose veineuse profonde,H10,S08,M16
+A00078,P0007,2023-08-22,Dermatologie,1,Thrombose veineuse profonde,H09,S14,M16
+A00079,P0052,2023-04-20,Neurologie,0,Lombalgie aiguë,H16,S02,M19
+A00080,P0073,2023-08-31,Neurologie,0,Insuffisance cardiaque,H10,S02,M08
+A00081,P0054,2024-04-07,Pneumologie,1,COVID-19,H20,S10,M20
+A00082,P0049,2024-08-31,Endocrinologie,1,Asthme aigu grave,H15,S15,M15
+A00083,P0055,2023-05-04,Pneumologie,0,COVID-19,H10,S10,M20
+A00084,P0095,2024-03-08,Psychiatrie,0,Cancer du poumon,H04,S13,M07
+A00085,P0011,2026-02-04,Chirurgie générale,0,Fracture du col du fémur,H06,S04,M06
+A00086,P0001,2025-08-20,Oncologie,0,COVID-19,H14,S08,M20
+A00087,P0030,2025-07-18,Rhumatologie,0,Dépression sévère,H10,S12,M10
+A00088,P0030,2024-02-10,Psychiatrie,0,Lombalgie aiguë,H09,S13,M19
+A00089,P0070,2024-06-28,Gastro-entérologie,1,Hypertension artérielle,H08,S11,M05
+A00090,P0010,2026-05-03,Urgences,1,Dépression sévère,H02,S03,M10
+A00091,P0073,2025-08-17,Oncologie,1,Diabète de type 2,H10,S08,M04
+A00092,P0090,2026-01-10,Pédiatrie,0,Cholécystite aiguë,H13,S05,M17
+A00093,P0011,2024-10-22,Cardiologie,0,Gastro-entérite aiguë,H20,S01,M14
+A00094,P0004,2026-04-17,Chirurgie générale,1,Lombalgie aiguë,H03,S04,M19
+A00095,P0098,2023-12-25,Pneumologie,0,Accident vasculaire cérébral,H09,S10,M02
+A00096,P0084,2024-01-07,Endocrinologie,1,Appendicite aiguë,H15,S15,M09
+A00097,P0056,2024-12-13,Neurologie,0,Thrombose veineuse profonde,H16,S02,M16
+A00098,P0042,2024-11-06,Dermatologie,0,Fracture du col du fémur,H04,S14,M06
+A00099,P0064,2026-01-31,Gastro-entérologie,0,Colique néphrétique,H10,S11,M13
+A00100,P0012,2023-08-26,Pédiatrie,1,BPCO,H11,S05,M11
+A00101,P0052,2026-01-16,Dermatologie,0,Infarctus du myocarde,H17,S14,M01
+A00102,P0007,2025-10-17,Réanimation,0,Sepsis,H07,S09,M12
+A00103,P0098,2026-01-29,Chirurgie générale,0,Appendicite aiguë,H02,S04,M09
+A00104,P0037,2023-09-06,Endocrinologie,0,Thrombose veineuse profonde,H15,S15,M16
+A00105,P0081,2023-11-21,Psychiatrie,0,Insuffisance cardiaque,H20,S13,M08
+A00106,P0002,2024-04-05,Orthopédie,1,Pneumonie,H18,S07,M03
+A00107,P0015,2025-10-17,Neurologie,1,Hypertension artérielle,H15,S02,M05
+A00108,P0038,2025-04-30,Rhumatologie,1,Appendicite aiguë,H17,S12,M09
+A00109,P0061,2023-10-24,Oncologie,0,Insuffisance rénale chronique,H08,S08,M18
+A00110,P0077,2023-05-23,Rhumatologie,0,Hypertension artérielle,H17,S12,M05
+A00111,P0054,2024-07-01,Endocrinologie,1,Cholécystite aiguë,H11,S15,M17
+A00112,P0037,2026-04-02,Dermatologie,1,Lombalgie aiguë,H10,S14,M19
+A00113,P0063,2025-09-18,Oncologie,0,Insuffisance rénale chronique,H05,S08,M18
+A00114,P0071,2024-10-21,Orthopédie,1,Asthme aigu grave,H18,S07,M15
+A00115,P0090,2024-04-23,Pneumologie,1,Colique néphrétique,H08,S10,M13
+A00116,P0053,2025-02-19,Gynécologie,0,Thrombose veineuse profonde,H02,S06,M16
+A00117,P0085,2023-09-16,Oncologie,0,Accident vasculaire cérébral,H05,S08,M02
+A00118,P0076,2025-06-20,Dermatologie,0,Diabète de type 2,H11,S14,M04
+A00119,P0059,2025-04-19,Rhumatologie,1,Hypertension artérielle,H01,S12,M05
+A00120,P0020,2024-11-24,Oncologie,0,Appendicite aiguë,H03,S08,M09
+A00121,P0051,2025-12-28,Dermatologie,0,BPCO,H03,S14,M11
+A00122,P0041,2023-03-15,Dermatologie,0,Insuffisance rénale chronique,H16,S14,M18
+A00123,P0031,2025-06-07,Chirurgie générale,1,Pneumonie,H10,S04,M03
+A00124,P0098,2024-09-05,Oncologie,1,Fracture du col du fémur,H04,S08,M06
+A00125,P0006,2024-08-23,Psychiatrie,0,Accident vasculaire cérébral,H11,S13,M02
+A00126,P0056,2025-04-23,Chirurgie générale,0,Cholécystite aiguë,H05,S04,M17
+A00127,P0024,2026-06-02,Urgences,1,Pneumonie,H06,S03,M03
+A00128,P0080,2023-10-21,Oncologie,0,Lombalgie aiguë,H08,S08,M19
+A00129,P0082,2023-01-20,Oncologie,1,Appendicite aiguë,H09,S08,M09
+A00130,P0060,2023-11-20,Gastro-entérologie,0,Insuffisance rénale chronique,H10,S11,M18
+A00131,P0045,2024-05-27,Pédiatrie,0,Gastro-entérite aiguë,H19,S05,M14
+A00132,P0039,2023-08-07,Orthopédie,0,Thrombose veineuse profonde,H07,S07,M16
+A00133,P0074,2024-08-27,Pneumologie,0,Dépression sévère,H12,S10,M10
+A00134,P0085,2026-03-05,Pédiatrie,1,Infarctus du myocarde,H13,S05,M01
+A00135,P0100,2025-10-14,Endocrinologie,1,COVID-19,H02,S15,M20
+A00136,P0037,2024-03-24,Pneumologie,0,Sepsis,H08,S10,M12
+A00137,P0080,2023-07-18,Gastro-entérologie,1,Hypertension artérielle,H09,S11,M05
+A00138,P0083,2023-03-10,Pédiatrie,0,Asthme aigu grave,H02,S05,M15
+A00139,P0094,2024-10-31,Neurologie,1,Dépression sévère,H05,S02,M10
+A00140,P0023,2025-01-19,Urgences,0,Insuffisance rénale chronique,H07,S03,M18
+A00141,P0035,2024-08-27,Pédiatrie,1,Thrombose veineuse profonde,H06,S05,M16
+A00142,P0044,2023-10-16,Oncologie,1,Pneumonie,H04,S08,M03
+A00143,P0029,2025-01-19,Dermatologie,0,Insuffisance rénale chronique,H13,S14,M18
+A00144,P0051,2023-09-11,Pédiatrie,0,Insuffisance rénale chronique,H01,S05,M18
+A00145,P0087,2025-01-30,Pneumologie,0,Colique néphrétique,H09,S10,M13
+A00146,P0030,2026-02-23,Cardiologie,0,COVID-19,H16,S01,M20
+A00147,P0079,2025-08-08,Gastro-entérologie,1,Pneumonie,H08,S11,M03
+A00148,P0039,2023-04-03,Neurologie,1,Hypertension artérielle,H14,S02,M05
+A00149,P0039,2024-04-25,Neurologie,1,Diabète de type 2,H16,S02,M04
+A00150,P0018,2026-01-11,Oncologie,0,Sepsis,H13,S08,M12
+A00151,P0096,2023-07-22,Endocrinologie,1,Gastro-entérite aiguë,H05,S15,M14
+A00152,P0079,2025-01-28,Pédiatrie,0,Accident vasculaire cérébral,H14,S05,M02
+A00153,P0057,2023-07-23,Dermatologie,1,Sepsis,H08,S14,M12
+A00154,P0048,2023-05-05,Endocrinologie,0,Sepsis,H18,S15,M12
+A00155,P0025,2023-07-07,Dermatologie,1,Asthme aigu grave,H04,S14,M15
+A00156,P0083,2024-11-14,Cardiologie,0,Accident vasculaire cérébral,H20,S01,M02
+A00157,P0017,2026-02-09,Chirurgie générale,0,Pneumonie,H19,S04,M03
+A00158,P0028,2026-05-05,Gynécologie,0,Hypertension artérielle,H08,S06,M05
+A00159,P0019,2023-12-24,Réanimation,0,Appendicite aiguë,H05,S09,M09
+A00160,P0004,2024-05-02,Cardiologie,0,Sepsis,H05,S01,M12
+A00161,P0003,2023-09-17,Pédiatrie,1,Accident vasculaire cérébral,H06,S05,M02
+A00162,P0068,2025-09-02,Rhumatologie,0,Pneumonie,H04,S12,M03
+A00163,P0047,2025-07-14,Pneumologie,0,Diabète de type 2,H17,S10,M04
+A00164,P0079,2024-09-09,Rhumatologie,0,Cholécystite aiguë,H02,S12,M17
+A00165,P0004,2025-05-23,Oncologie,1,Colique néphrétique,H02,S08,M13
+A00166,P0063,2024-10-21,Neurologie,0,Pneumonie,H15,S02,M03
+A00167,P0009,2026-04-13,Pédiatrie,0,COVID-19,H05,S05,M20
+A00168,P0042,2024-08-26,Pneumologie,0,Cholécystite aiguë,H13,S10,M17
+A00169,P0078,2026-02-03,Neurologie,1,Diabète de type 2,H14,S02,M04
+A00170,P0028,2025-04-27,Oncologie,0,Insuffisance cardiaque,H14,S08,M08
+A00171,P0059,2024-10-02,Orthopédie,0,Diabète de type 2,H13,S07,M04
+A00172,P0086,2025-08-29,Gynécologie,0,Hypertension artérielle,H09,S06,M05
+A00173,P0011,2025-02-02,Orthopédie,1,Diabète de type 2,H03,S07,M04
+A00174,P0072,2026-02-24,Pneumologie,0,Insuffisance rénale chronique,H02,S10,M18
+A00175,P0016,2023-04-16,Gynécologie,1,Gastro-entérite aiguë,H14,S06,M14
+A00176,P0077,2026-03-29,Gynécologie,0,Diabète de type 2,H10,S06,M04
+A00177,P0020,2024-12-18,Chirurgie générale,1,Diabète de type 2,H16,S04,M04
+A00178,P0048,2026-03-21,Psychiatrie,0,Appendicite aiguë,H04,S13,M09
+A00179,P0055,2026-06-10,Psychiatrie,1,COVID-19,H18,S13,M20
+A00180,P0072,2023-03-01,Pneumologie,0,Appendicite aiguë,H01,S10,M09
+A00181,P0090,2024-12-19,Endocrinologie,0,BPCO,H10,S15,M11
+A00182,P0019,2023-05-23,Gastro-entérologie,0,Colique néphrétique,H19,S11,M13
+A00183,P0082,2024-03-16,Neurologie,0,Cholécystite aiguë,H01,S02,M17
+A00184,P0059,2024-09-30,Urgences,1,Sepsis,H11,S03,M12
+A00185,P0100,2023-04-18,Pneumologie,0,Pneumonie,H19,S10,M03
+A00186,P0097,2024-07-11,Cardiologie,0,Pneumonie,H20,S01,M03
+A00187,P0055,2025-04-28,Pneumologie,0,Asthme aigu grave,H16,S10,M15
+A00188,P0097,2025-05-30,Neurologie,0,Sepsis,H17,S02,M12
+A00189,P0087,2024-09-23,Oncologie,0,Cholécystite aiguë,H19,S08,M17
+A00190,P0051,2024-02-23,Cardiologie,0,Infarctus du myocarde,H20,S01,M01
+A00191,P0028,2024-08-15,Psychiatrie,0,Appendicite aiguë,H05,S13,M09
+A00192,P0001,2023-12-26,Rhumatologie,0,Gastro-entérite aiguë,H16,S12,M14
+A00193,P0069,2024-12-26,Réanimation,0,Insuffisance rénale chronique,H08,S09,M18
+A00194,P0095,2025-07-30,Orthopédie,1,Infarctus du myocarde,H02,S07,M01
+A00195,P0041,2025-04-08,Orthopédie,1,Lombalgie aiguë,H19,S07,M19
+A00196,P0054,2023-02-12,Neurologie,1,Colique néphrétique,H10,S02,M13
+A00197,P0022,2023-06-30,Oncologie,0,Sepsis,H20,S08,M12
+A00198,P0014,2025-03-31,Orthopédie,0,Lombalgie aiguë,H08,S07,M19
+A00199,P0051,2024-03-29,Rhumatologie,0,BPCO,H10,S12,M11
+A00200,P0022,2025-12-22,Réanimation,0,Diabète de type 2,H03,S09,M04
+A00201,P0100,2024-04-28,Gynécologie,0,Hypertension artérielle,H12,S06,M05
+A00202,P0033,2023-11-10,Urgences,1,COVID-19,H07,S03,M20
+A00203,P0084,2025-08-08,Urgences,1,Thrombose veineuse profonde,H03,S03,M16
+A00204,P0098,2024-10-23,Oncologie,1,Lombalgie aiguë,H19,S08,M19
+A00205,P0081,2023-05-20,Urgences,0,Asthme aigu grave,H11,S03,M15
+A00206,P0081,2026-04-26,Psychiatrie,0,Appendicite aiguë,H10,S13,M09
+A00207,P0065,2025-07-14,Pédiatrie,0,Asthme aigu grave,H03,S05,M15
+A00208,P0048,2026-06-13,Neurologie,0,Pneumonie,H10,S02,M03
+A00209,P0050,2023-03-26,Pneumologie,0,Insuffisance rénale chronique,H15,S10,M18
+A00210,P0074,2025-09-01,Gynécologie,0,COVID-19,H07,S06,M20
+A00211,P0008,2023-06-22,Neurologie,0,BPCO,H15,S02,M11
+A00212,P0023,2025-06-18,Chirurgie générale,0,Asthme aigu grave,H02,S04,M15
+A00213,P0079,2024-08-02,Gynécologie,0,Sepsis,H06,S06,M12
+A00214,P0100,2023-04-18,Gastro-entérologie,1,COVID-19,H11,S11,M20
+A00215,P0083,2023-07-13,Neurologie,0,BPCO,H11,S02,M11
+A00216,P0050,2023-11-04,Pédiatrie,0,COVID-19,H10,S05,M20
+A00217,P0075,2024-09-27,Endocrinologie,1,Sepsis,H05,S15,M12
+A00218,P0090,2023-06-23,Urgences,0,COVID-19,H13,S03,M20
+A00219,P0049,2025-12-14,Dermatologie,0,Hypertension artérielle,H11,S14,M05
+A00220,P0086,2023-02-07,Réanimation,0,Sepsis,H14,S09,M12
+A00221,P0024,2024-01-29,Gynécologie,0,Thrombose veineuse profonde,H07,S06,M16
+A00222,P0018,2023-07-27,Neurologie,0,Dépression sévère,H05,S02,M10
+A00223,P0070,2023-09-26,Cardiologie,0,BPCO,H17,S01,M11
+A00224,P0020,2023-12-06,Urgences,1,COVID-19,H06,S03,M20
+A00225,P0006,2025-06-28,Gynécologie,0,Insuffisance cardiaque,H14,S06,M08
+A00226,P0097,2024-05-04,Chirurgie générale,0,Insuffisance rénale chronique,H15,S04,M18
+A00227,P0061,2025-06-21,Gynécologie,0,Lombalgie aiguë,H07,S06,M19
+A00228,P0037,2025-05-07,Réanimation,1,Cholécystite aiguë,H13,S09,M17
+A00229,P0026,2023-04-17,Urgences,0,Appendicite aiguë,H20,S03,M09
+A00230,P0048,2025-11-22,Endocrinologie,1,Diabète de type 2,H18,S15,M04
+A00231,P0037,2024-07-12,Psychiatrie,0,Fracture du col du fémur,H03,S13,M06
+A00232,P0066,2023-07-07,Dermatologie,1,Gastro-entérite aiguë,H05,S14,M14
+A00233,P0029,2023-02-24,Endocrinologie,0,Sepsis,H15,S15,M12
+A00234,P0051,2025-03-01,Gynécologie,1,Insuffisance cardiaque,H17,S06,M08
+A00235,P0048,2023-07-22,Cardiologie,1,BPCO,H08,S01,M11
+A00236,P0084,2023-10-09,Psychiatrie,0,Hypertension artérielle,H11,S13,M05
+A00237,P0061,2025-07-07,Psychiatrie,0,Thrombose veineuse profonde,H05,S13,M16
+A00238,P0011,2023-11-03,Pédiatrie,0,Cancer du poumon,H01,S05,M07
+A00239,P0094,2023-08-16,Réanimation,1,Gastro-entérite aiguë,H20,S09,M14
+A00240,P0031,2024-05-03,Neurologie,0,Accident vasculaire cérébral,H10,S02,M02
+A00241,P0080,2025-10-20,Neurologie,0,Diabète de type 2,H15,S02,M04
+A00242,P0003,2023-10-22,Pneumologie,0,Insuffisance cardiaque,H17,S10,M08
+A00243,P0001,2026-03-14,Gynécologie,0,Insuffisance cardiaque,H20,S06,M08
+A00244,P0086,2023-05-19,Réanimation,1,Sepsis,H03,S09,M12
+A00245,P0070,2026-02-08,Psychiatrie,0,Cholécystite aiguë,H17,S13,M17
+A00246,P0061,2025-02-03,Gastro-entérologie,0,Colique néphrétique,H02,S11,M13
+A00247,P0003,2024-12-07,Psychiatrie,0,Pneumonie,H12,S13,M03
+A00248,P0085,2024-11-11,Psychiatrie,0,Lombalgie aiguë,H04,S13,M19
+A00249,P0046,2025-08-09,Gynécologie,1,Fracture du col du fémur,H18,S06,M06
+A00250,P0062,2023-05-10,Psychiatrie,1,Hypertension artérielle,H06,S13,M05
+A00251,P0059,2023-03-31,Pédiatrie,1,Cancer du poumon,H02,S05,M07
+A00252,P0006,2025-11-21,Endocrinologie,0,Dépression sévère,H11,S15,M10
+A00253,P0070,2024-01-27,Pédiatrie,0,Accident vasculaire cérébral,H16,S05,M02
+A00254,P0100,2024-07-13,Dermatologie,0,BPCO,H02,S14,M11
+A00255,P0048,2025-06-19,Endocrinologie,1,Colique néphrétique,H14,S15,M13
+A00256,P0050,2025-10-15,Urgences,0,Thrombose veineuse profonde,H11,S03,M16
+A00257,P0067,2025-05-19,Psychiatrie,0,Pneumonie,H09,S13,M03
+A00258,P0078,2024-10-19,Réanimation,0,Dépression sévère,H06,S09,M10
+A00259,P0042,2026-05-19,Pédiatrie,1,Asthme aigu grave,H10,S05,M15
+A00260,P0022,2023-03-28,Gynécologie,1,Asthme aigu grave,H15,S06,M15
+A00261,P0046,2023-04-28,Orthopédie,0,Appendicite aiguë,H20,S07,M09
+A00262,P0082,2023-11-24,Gynécologie,1,Cholécystite aiguë,H13,S06,M17
+A00263,P0019,2023-03-13,Gastro-entérologie,0,Asthme aigu grave,H20,S11,M15
+A00264,P0031,2026-03-07,Gynécologie,0,Colique néphrétique,H12,S06,M13
+A00265,P0020,2025-06-28,Gynécologie,1,Sepsis,H15,S06,M12
+A00266,P0074,2025-03-26,Réanimation,0,Sepsis,H05,S09,M12
+A00267,P0036,2024-01-17,Neurologie,0,Infarctus du myocarde,H08,S02,M01
+A00268,P0050,2024-06-17,Neurologie,1,Appendicite aiguë,H18,S02,M09
+A00269,P0028,2024-02-14,Pédiatrie,0,Thrombose veineuse profonde,H20,S05,M16
+A00270,P0010,2023-06-29,Urgences,1,Asthme aigu grave,H15,S03,M15
+A00271,P0041,2026-01-31,Rhumatologie,0,Pneumonie,H12,S12,M03
+A00272,P0039,2025-01-10,Rhumatologie,0,Fracture du col du fémur,H06,S12,M06
+A00273,P0016,2024-04-29,Psychiatrie,1,Hypertension artérielle,H07,S13,M05
+A00274,P0004,2025-01-25,Réanimation,0,Lombalgie aiguë,H12,S09,M19
+A00275,P0071,2023-05-15,Pneumologie,0,Pneumonie,H05,S10,M03
+A00276,P0092,2025-04-18,Réanimation,1,Gastro-entérite aiguë,H16,S09,M14
+A00277,P0010,2025-07-10,Gynécologie,0,Pneumonie,H05,S06,M03
+A00278,P0067,2026-04-18,Urgences,0,Insuffisance rénale chronique,H12,S03,M18
+A00279,P0017,2023-09-12,Réanimation,0,Accident vasculaire cérébral,H14,S09,M02
+A00280,P0039,2024-04-06,Urgences,0,BPCO,H06,S03,M11
+A00281,P0067,2024-05-28,Dermatologie,0,Pneumonie,H10,S14,M03
+A00282,P0071,2026-06-12,Urgences,0,Dépression sévère,H09,S03,M10
+A00283,P0065,2023-11-12,Pneumologie,0,Lombalgie aiguë,H06,S10,M19
+A00284,P0080,2023-03-26,Gynécologie,1,Lombalgie aiguë,H20,S06,M19
+A00285,P0004,2024-06-26,Cardiologie,1,Lombalgie aiguë,H03,S01,M19
+A00286,P0099,2023-03-04,Orthopédie,0,COVID-19,H19,S07,M20
+A00287,P0081,2025-09-16,Pédiatrie,0,Dépression sévère,H18,S05,M10
+A00288,P0088,2023-05-30,Pédiatrie,1,Asthme aigu grave,H13,S05,M15
+A00289,P0021,2025-08-09,Orthopédie,0,Thrombose veineuse profonde,H15,S07,M16
+A00290,P0078,2024-12-08,Gynécologie,1,BPCO,H05,S06,M11
+A00291,P0017,2023-08-06,Réanimation,0,Insuffisance rénale chronique,H12,S09,M18
+A00292,P0060,2024-05-22,Pédiatrie,0,Asthme aigu grave,H04,S05,M15
+A00293,P0007,2025-05-06,Orthopédie,0,COVID-19,H10,S07,M20
+A00294,P0021,2024-10-02,Endocrinologie,0,Lombalgie aiguë,H11,S15,M19
+A00295,P0021,2025-10-18,Réanimation,1,Asthme aigu grave,H16,S09,M15
+A00296,P0064,2025-11-01,Neurologie,0,Colique néphrétique,H01,S02,M13
+A00297,P0031,2023-04-10,Pneumologie,0,Sepsis,H07,S10,M12
+A00298,P0064,2024-08-08,Endocrinologie,0,Thrombose veineuse profonde,H20,S15,M16
+A00299,P0014,2025-01-19,Urgences,1,Appendicite aiguë,H14,S03,M09
+A00300,P0047,2026-03-13,Orthopédie,0,Accident vasculaire cérébral,H02,S07,M02
+A00301,P0047,2025-03-02,Pédiatrie,0,Pneumonie,H18,S05,M03
+A00302,P0098,2026-06-05,Pédiatrie,0,COVID-19,H18,S05,M20
+A00303,P0013,2026-02-16,Gynécologie,1,BPCO,H13,S06,M11
+A00304,P0097,2025-11-08,Chirurgie générale,0,COVID-19,H05,S04,M20
+A00305,P0006,2024-11-13,Cardiologie,1,Hypertension artérielle,H02,S01,M05
+A00306,P0067,2025-11-21,Urgences,0,COVID-19,H15,S03,M20
+A00307,P0079,2026-06-16,Urgences,1,Colique néphrétique,H11,S03,M13
+A00308,P0039,2025-11-09,Gynécologie,0,Cholécystite aiguë,H19,S06,M17
+A00309,P0091,2023-02-04,Pédiatrie,0,Thrombose veineuse profonde,H19,S05,M16
+A00310,P0087,2024-09-22,Orthopédie,1,Lombalgie aiguë,H04,S07,M19
+A00311,P0093,2024-06-27,Pneumologie,1,Thrombose veineuse profonde,H01,S10,M16
+A00312,P0100,2023-04-16,Pneumologie,0,Insuffisance cardiaque,H19,S10,M08
+A00313,P0022,2025-02-17,Gastro-entérologie,0,COVID-19,H17,S11,M20
+A00314,P0088,2023-08-14,Cardiologie,0,Lombalgie aiguë,H08,S01,M19
+A00315,P0057,2025-04-25,Orthopédie,1,Hypertension artérielle,H11,S07,M05
+A00316,P0053,2025-08-23,Psychiatrie,1,COVID-19,H17,S13,M20
+A00317,P0095,2025-11-28,Rhumatologie,0,Hypertension artérielle,H02,S12,M05
+A00318,P0042,2024-10-04,Réanimation,1,Colique néphrétique,H16,S09,M13
+A00319,P0059,2024-12-26,Gynécologie,1,Insuffisance rénale chronique,H18,S06,M18
+A00320,P0093,2024-01-29,Pneumologie,1,Thrombose veineuse profonde,H09,S10,M16
+A00321,P0036,2024-09-01,Pédiatrie,1,Insuffisance cardiaque,H18,S05,M08
+A00322,P0091,2024-10-11,Rhumatologie,0,Thrombose veineuse profonde,H07,S12,M16
+A00323,P0072,2026-03-20,Pédiatrie,1,Diabète de type 2,H09,S05,M04
+A00324,P0049,2023-10-27,Dermatologie,0,Sepsis,H13,S14,M12
+A00325,P0037,2024-06-09,Gynécologie,1,Asthme aigu grave,H03,S06,M15
+A00326,P0028,2024-07-09,Dermatologie,1,Insuffisance rénale chronique,H07,S14,M18
+A00327,P0090,2026-06-14,Urgences,1,Diabète de type 2,H09,S03,M04
+A00328,P0031,2024-04-07,Cardiologie,0,Cholécystite aiguë,H08,S01,M17
+A00329,P0007,2025-08-25,Orthopédie,0,BPCO,H04,S07,M11
+A00330,P0099,2023-11-20,Cardiologie,0,Insuffisance rénale chronique,H05,S01,M18
+A00331,P0061,2024-08-11,Gastro-entérologie,0,Cancer du poumon,H16,S11,M07
+A00332,P0083,2026-03-21,Endocrinologie,0,Pneumonie,H02,S15,M03
+A00333,P0095,2025-05-05,Endocrinologie,1,Fracture du col du fémur,H02,S15,M06
+A00334,P0023,2025-10-11,Dermatologie,0,Colique néphrétique,H02,S14,M13
+A00335,P0096,2023-01-19,Endocrinologie,0,Accident vasculaire cérébral,H10,S15,M02
+A00336,P0078,2024-08-05,Endocrinologie,0,BPCO,H04,S15,M11
+A00337,P0083,2023-10-02,Réanimation,1,Thrombose veineuse profonde,H18,S09,M16
+A00338,P0060,2024-11-08,Chirurgie générale,0,Diabète de type 2,H09,S04,M04
+A00339,P0059,2023-01-29,Rhumatologie,1,Fracture du col du fémur,H09,S12,M06
+A00340,P0038,2023-12-26,Gastro-entérologie,0,Cancer du poumon,H19,S11,M07
+A00341,P0082,2025-11-21,Dermatologie,0,Gastro-entérite aiguë,H13,S14,M14
+A00342,P0052,2025-09-04,Urgences,0,Hypertension artérielle,H04,S03,M05
+A00343,P0032,2024-04-27,Pédiatrie,0,Colique néphrétique,H01,S05,M13
+A00344,P0035,2026-03-19,Pédiatrie,0,Lombalgie aiguë,H11,S05,M19
+A00345,P0084,2023-05-08,Rhumatologie,1,Insuffisance cardiaque,H12,S12,M08
+A00346,P0060,2025-10-26,Urgences,1,Colique néphrétique,H10,S03,M13
+A00347,P0091,2024-08-27,Rhumatologie,0,Diabète de type 2,H10,S12,M04
+A00348,P0029,2023-11-10,Urgences,0,Thrombose veineuse profonde,H08,S03,M16
+A00349,P0078,2025-08-22,Orthopédie,1,Insuffisance rénale chronique,H12,S07,M18
+A00350,P0086,2026-05-05,Psychiatrie,1,Insuffisance cardiaque,H07,S13,M08
+A00351,P0011,2025-01-10,Oncologie,0,Cholécystite aiguë,H17,S08,M17
+A00352,P0073,2025-11-01,Cardiologie,0,Insuffisance rénale chronique,H04,S01,M18
+A00353,P0069,2025-12-01,Urgences,0,BPCO,H05,S03,M11
+A00354,P0088,2025-09-28,Rhumatologie,0,Lombalgie aiguë,H07,S12,M19
+A00355,P0066,2025-07-17,Psychiatrie,0,Accident vasculaire cérébral,H15,S13,M02
+A00356,P0054,2026-02-18,Pneumologie,0,Accident vasculaire cérébral,H15,S10,M02
+A00357,P0040,2023-01-07,Orthopédie,1,Appendicite aiguë,H01,S07,M09
+A00358,P0075,2024-12-06,Cardiologie,1,Gastro-entérite aiguë,H03,S01,M14
+A00359,P0070,2025-08-24,Endocrinologie,0,Pneumonie,H02,S15,M03
+A00360,P0053,2025-05-10,Psychiatrie,0,Hypertension artérielle,H06,S13,M05
+A00361,P0049,2025-02-08,Dermatologie,0,Colique néphrétique,H15,S14,M13
+A00362,P0085,2023-08-31,Urgences,0,Sepsis,H18,S03,M12
+A00363,P0069,2024-04-01,Réanimation,1,Hypertension artérielle,H13,S09,M05
+A00364,P0097,2026-01-20,Pédiatrie,0,Asthme aigu grave,H01,S05,M15
+A00365,P0049,2024-12-09,Chirurgie générale,0,Asthme aigu grave,H08,S04,M15
+A00366,P0025,2026-06-13,Cardiologie,1,Gastro-entérite aiguë,H04,S01,M14
+A00367,P0003,2023-07-26,Chirurgie générale,0,Pneumonie,H08,S04,M03
+A00368,P0058,2024-05-16,Gastro-entérologie,1,Accident vasculaire cérébral,H20,S11,M02
+A00369,P0052,2024-03-20,Chirurgie générale,1,Insuffisance rénale chronique,H15,S04,M18
+A00370,P0100,2024-08-15,Urgences,0,Cholécystite aiguë,H02,S03,M17
+A00371,P0094,2026-05-09,Gynécologie,1,Lombalgie aiguë,H19,S06,M19
+A00372,P0042,2025-12-03,Pédiatrie,0,Hypertension artérielle,H08,S05,M05
+A00373,P0039,2026-04-26,Cardiologie,1,Insuffisance rénale chronique,H09,S01,M18
+A00374,P0023,2023-04-07,Réanimation,1,Thrombose veineuse profonde,H14,S09,M16
+A00375,P0083,2024-10-14,Psychiatrie,1,Cholécystite aiguë,H13,S13,M17
+A00376,P0053,2024-01-12,Pédiatrie,1,Colique néphrétique,H05,S05,M13
+A00377,P0061,2024-09-07,Dermatologie,1,Insuffisance cardiaque,H08,S14,M08
+A00378,P0019,2026-02-25,Endocrinologie,0,Accident vasculaire cérébral,H15,S15,M02
+A00379,P0054,2025-03-06,Réanimation,0,Hypertension artérielle,H18,S09,M05
+A00380,P0027,2025-07-10,Gastro-entérologie,1,Pneumonie,H11,S11,M03
+A00381,P0012,2023-04-16,Rhumatologie,0,Cancer du poumon,H18,S12,M07
+A00382,P0087,2023-05-30,Pneumologie,0,Accident vasculaire cérébral,H20,S10,M02
+A00383,P0098,2024-03-20,Rhumatologie,0,Insuffisance rénale chronique,H19,S12,M18
+A00384,P0043,2024-03-09,Endocrinologie,1,Infarctus du myocarde,H10,S15,M01
+A00385,P0095,2024-05-11,Rhumatologie,1,Thrombose veineuse profonde,H04,S12,M16
+A00386,P0091,2026-02-04,Orthopédie,0,Insuffisance cardiaque,H07,S07,M08
+A00387,P0037,2025-01-05,Oncologie,0,Insuffisance rénale chronique,H13,S08,M18
+A00388,P0047,2025-08-12,Endocrinologie,0,Thrombose veineuse profonde,H17,S15,M16
+A00389,P0093,2024-02-21,Psychiatrie,0,BPCO,H16,S13,M11
+A00390,P0053,2023-10-26,Pneumologie,0,Insuffisance cardiaque,H02,S10,M08
+A00391,P0071,2024-08-27,Pneumologie,0,Gastro-entérite aiguë,H19,S10,M14
+A00392,P0043,2024-05-18,Orthopédie,0,Lombalgie aiguë,H08,S07,M19
+A00393,P0084,2025-10-01,Pédiatrie,0,Thrombose veineuse profonde,H11,S05,M16
+A00394,P0094,2026-01-24,Urgences,0,Hypertension artérielle,H12,S03,M05
+A00395,P0070,2023-06-02,Réanimation,1,Accident vasculaire cérébral,H02,S09,M02
+A00396,P0086,2025-04-24,Psychiatrie,0,Infarctus du myocarde,H02,S13,M01
+A00397,P0081,2023-01-19,Neurologie,0,Hypertension artérielle,H08,S02,M05
+A00398,P0059,2026-06-16,Cardiologie,1,COVID-19,H12,S01,M20
+A00399,P0085,2025-12-25,Cardiologie,0,Infarctus du myocarde,H16,S01,M01
+A00400,P0002,2026-01-02,Réanimation,1,Appendicite aiguë,H01,S09,M09
+A00401,P0003,2024-01-03,Dermatologie,0,Gastro-entérite aiguë,H17,S14,M14
+A00402,P0013,2024-01-29,Urgences,0,Insuffisance cardiaque,H17,S03,M08
+A00403,P0033,2023-06-11,Pédiatrie,0,Colique néphrétique,H12,S05,M13
+A00404,P0052,2024-04-07,Pneumologie,0,Insuffisance cardiaque,H15,S10,M08
+A00405,P0011,2025-02-15,Neurologie,0,Colique néphrétique,H02,S02,M13
+A00406,P0061,2023-12-17,Gastro-entérologie,0,Infarctus du myocarde,H02,S11,M01
+A00407,P0056,2025-12-17,Pneumologie,1,Diabète de type 2,H11,S10,M04
+A00408,P0030,2025-08-31,Endocrinologie,0,Lombalgie aiguë,H07,S15,M19
+A00409,P0010,2026-02-28,Endocrinologie,1,Insuffisance rénale chronique,H09,S15,M18
+A00410,P0023,2026-04-17,Cardiologie,0,Cancer du poumon,H11,S01,M07
+A00411,P0092,2024-09-04,Endocrinologie,0,Pneumonie,H13,S15,M03
+A00412,P0031,2026-01-12,Dermatologie,0,Colique néphrétique,H19,S14,M13
+A00413,P0097,2025-10-22,Psychiatrie,1,Pneumonie,H05,S13,M03
+A00414,P0045,2024-04-20,Neurologie,1,Gastro-entérite aiguë,H02,S02,M14
+A00415,P0044,2026-05-04,Psychiatrie,0,COVID-19,H20,S13,M20
+A00416,P0100,2025-07-11,Cardiologie,0,Appendicite aiguë,H11,S01,M09
+A00417,P0046,2024-01-16,Orthopédie,1,Gastro-entérite aiguë,H18,S07,M14
+A00418,P0085,2024-08-27,Neurologie,1,COVID-19,H13,S02,M20
+A00419,P0092,2023-11-12,Neurologie,0,Appendicite aiguë,H03,S02,M09
+A00420,P0082,2024-10-10,Rhumatologie,0,Colique néphrétique,H05,S12,M13
+A00421,P0012,2025-01-07,Pédiatrie,1,Asthme aigu grave,H01,S05,M15
+A00422,P0014,2025-06-01,Neurologie,0,Fracture du col du fémur,H05,S02,M06
+A00423,P0072,2023-02-23,Orthopédie,0,Diabète de type 2,H17,S07,M04
+A00424,P0071,2024-10-26,Pneumologie,1,COVID-19,H03,S10,M20
+A00425,P0002,2023-06-23,Orthopédie,1,Colique néphrétique,H10,S07,M13
+A00426,P0072,2023-12-14,Pneumologie,1,Cholécystite aiguë,H08,S10,M17
+A00427,P0022,2024-07-03,Pédiatrie,0,Dépression sévère,H05,S05,M10
+A00428,P0009,2025-05-12,Orthopédie,0,Appendicite aiguë,H06,S07,M09
+A00429,P0010,2025-10-12,Pédiatrie,0,Insuffisance cardiaque,H12,S05,M08
+A00430,P0026,2024-09-15,Neurologie,0,Hypertension artérielle,H15,S02,M05
+A00431,P0051,2025-02-17,Dermatologie,1,COVID-19,H11,S14,M20
+A00432,P0043,2026-05-02,Gynécologie,0,Gastro-entérite aiguë,H15,S06,M14
+A00433,P0042,2025-09-08,Rhumatologie,0,Cancer du poumon,H20,S12,M07
+A00434,P0051,2026-03-25,Pédiatrie,1,Thrombose veineuse profonde,H11,S05,M16
+A00435,P0042,2025-01-17,Pédiatrie,0,Colique néphrétique,H13,S05,M13
+A00436,P0073,2024-01-04,Pneumologie,1,Insuffisance rénale chronique,H07,S10,M18
+A00437,P0071,2024-03-05,Rhumatologie,0,Asthme aigu grave,H01,S12,M15
+A00438,P0038,2025-10-19,Dermatologie,0,Gastro-entérite aiguë,H03,S14,M14
+A00439,P0039,2025-05-16,Pédiatrie,1,Hypertension artérielle,H08,S05,M05
+A00440,P0010,2026-04-07,Pneumologie,0,Thrombose veineuse profonde,H15,S10,M16
+A00441,P0065,2025-01-06,Réanimation,1,Accident vasculaire cérébral,H14,S09,M02
+A00442,P0069,2023-08-12,Gastro-entérologie,1,Pneumonie,H20,S11,M03
+A00443,P0085,2023-04-01,Urgences,0,COVID-19,H12,S03,M20
+A00444,P0083,2025-05-31,Psychiatrie,0,BPCO,H13,S13,M11
+A00445,P0013,2025-11-28,Chirurgie générale,0,Cholécystite aiguë,H09,S04,M17
+A00446,P0089,2025-02-05,Chirurgie générale,0,Asthme aigu grave,H19,S04,M15
+A00447,P0099,2023-11-05,Rhumatologie,0,Cholécystite aiguë,H19,S12,M17
+A00448,P0004,2025-05-01,Neurologie,1,Dépression sévère,H16,S02,M10
+A00449,P0011,2024-12-14,Dermatologie,0,Hypertension artérielle,H04,S14,M05
+A00450,P0059,2024-12-14,Réanimation,0,Thrombose veineuse profonde,H07,S09,M16
+A00451,P0057,2024-09-06,Gynécologie,0,Pneumonie,H15,S06,M03
+A00452,P0091,2023-08-12,Cardiologie,1,BPCO,H04,S01,M11
+A00453,P0022,2026-02-04,Réanimation,0,Fracture du col du fémur,H08,S09,M06
+A00454,P0072,2025-04-09,Oncologie,0,Insuffisance cardiaque,H14,S08,M08
+A00455,P0024,2026-06-11,Orthopédie,1,Infarctus du myocarde,H14,S07,M01
+A00456,P0058,2023-01-10,Orthopédie,1,Colique néphrétique,H19,S07,M13
+A00457,P0027,2026-03-28,Psychiatrie,0,Pneumonie,H09,S13,M03
+A00458,P0069,2024-02-08,Gynécologie,0,BPCO,H06,S06,M11
+A00459,P0034,2026-05-07,Réanimation,0,BPCO,H16,S09,M11
+A00460,P0051,2024-12-21,Neurologie,1,Sepsis,H19,S02,M12
+A00461,P0080,2026-06-12,Dermatologie,0,Dépression sévère,H06,S14,M10
+A00462,P0087,2024-05-03,Gynécologie,0,Diabète de type 2,H05,S06,M04
+A00463,P0024,2025-11-12,Rhumatologie,0,Hypertension artérielle,H12,S12,M05
+A00464,P0077,2025-05-16,Pneumologie,0,Colique néphrétique,H05,S10,M13
+A00465,P0082,2026-02-10,Rhumatologie,0,Fracture du col du fémur,H18,S12,M06
+A00466,P0037,2025-07-12,Urgences,0,BPCO,H05,S03,M11
+A00467,P0046,2024-02-04,Oncologie,1,Hypertension artérielle,H01,S08,M05
+A00468,P0072,2025-04-17,Gastro-entérologie,1,Thrombose veineuse profonde,H17,S11,M16
+A00469,P0054,2023-06-19,Oncologie,0,Fracture du col du fémur,H15,S08,M06
+A00470,P0098,2024-07-16,Pédiatrie,0,Accident vasculaire cérébral,H08,S05,M02
+A00471,P0037,2026-03-04,Psychiatrie,1,Asthme aigu grave,H06,S13,M15
+A00472,P0099,2023-08-20,Réanimation,0,Cholécystite aiguë,H16,S09,M17
+A00473,P0035,2026-01-15,Dermatologie,1,Sepsis,H18,S14,M12
+A00474,P0006,2025-05-20,Réanimation,0,Cancer du poumon,H15,S09,M07
+A00475,P0084,2025-07-10,Pédiatrie,0,Accident vasculaire cérébral,H08,S05,M02
+A00476,P0012,2024-04-30,Dermatologie,0,Diabète de type 2,H15,S14,M04
+A00477,P0095,2026-06-03,Rhumatologie,0,Sepsis,H19,S12,M12
+A00478,P0022,2024-02-28,Urgences,1,Cancer du poumon,H20,S03,M07
+A00479,P0073,2026-05-07,Réanimation,0,Appendicite aiguë,H12,S09,M09
+A00480,P0042,2024-07-01,Pédiatrie,1,Lombalgie aiguë,H10,S05,M19
+A00481,P0066,2023-05-02,Urgences,1,Gastro-entérite aiguë,H04,S03,M14
+A00482,P0084,2024-05-26,Rhumatologie,0,Hypertension artérielle,H05,S12,M05
+A00483,P0042,2025-09-29,Psychiatrie,0,Colique néphrétique,H08,S13,M13
+A00484,P0081,2025-02-07,Gastro-entérologie,0,Gastro-entérite aiguë,H09,S11,M14
+A00485,P0082,2024-07-23,Orthopédie,1,Cholécystite aiguë,H03,S07,M17
+A00486,P0048,2026-04-06,Oncologie,0,BPCO,H15,S08,M11
+A00487,P0100,2025-01-03,Rhumatologie,1,Asthme aigu grave,H03,S12,M15
+A00488,P0069,2024-03-09,Chirurgie générale,0,Gastro-entérite aiguë,H13,S04,M14
+A00489,P0042,2026-03-29,Gynécologie,0,Insuffisance rénale chronique,H10,S06,M18
+A00490,P0063,2023-04-05,Endocrinologie,0,Accident vasculaire cérébral,H11,S15,M02
+A00491,P0059,2025-06-22,Neurologie,0,Fracture du col du fémur,H01,S02,M06
+A00492,P0055,2024-09-10,Rhumatologie,0,Hypertension artérielle,H07,S12,M05
+A00493,P0036,2024-05-27,Gastro-entérologie,0,Sepsis,H03,S11,M12
+A00494,P0086,2024-09-17,Cardiologie,1,Colique néphrétique,H06,S01,M13
+A00495,P0097,2023-07-14,Orthopédie,0,Pneumonie,H08,S07,M03
+A00496,P0062,2024-04-08,Urgences,0,Lombalgie aiguë,H03,S03,M19
+A00497,P0057,2023-09-04,Cardiologie,1,BPCO,H01,S01,M11
+A00498,P0055,2024-04-13,Oncologie,0,Pneumonie,H05,S08,M03
+A00499,P0094,2025-01-22,Neurologie,1,BPCO,H04,S02,M11
+A00500,P0018,2023-10-20,Psychiatrie,0,Hypertension artérielle,H13,S13,M05

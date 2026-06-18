@@ -1,0 +1,21 @@
+hopital_id,nom,ville,region_id,capacite_lits,type,nb_medecins
+H01,CHU Paris-Centre,Paris,R01,800,CHU,450
+H02,CH Versailles,Versailles,R01,350,CH,180
+H03,CHU Lyon-Sud,Lyon,R02,750,CHU,400
+H04,CH Grenoble,Grenoble,R02,420,CH,200
+H05,CHU Lille,Lille,R03,680,CHU,380
+H06,CH Amiens,Amiens,R03,310,CH,160
+H07,CHU Bordeaux,Bordeaux,R04,600,CHU,350
+H08,CH Pau,Pau,R04,280,CH,140
+H09,CHU Toulouse,Toulouse,R05,700,CHU,390
+H10,CH Montpellier,Montpellier,R05,500,CH,250
+H11,CH Rouen,Rouen,R06,450,CH,220
+H12,CH Caen,Caen,R06,380,CH,190
+H13,CH Rennes,Rennes,R07,420,CH,210
+H14,CH Nantes,Nantes,R08,550,CHU,300
+H15,CH Strasbourg,Strasbourg,R09,480,CH,240
+H16,CHU Marseille,Marseille,R10,720,CHU,400
+H17,CH Toulon,Toulon,R10,320,CH,160
+H18,CH Orléans,Orléans,R11,280,CH,140
+H19,CH Dijon,Dijon,R12,350,CH,175
+H20,CH Ajaccio,Ajaccio,R13,180,CH,90

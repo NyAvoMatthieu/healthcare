@@ -1,0 +1,14 @@
+region_id,nom_region,population,superficie,chef_lieu
+R01,Île-de-France,12174880,12012,Saint Nicole-la-Forêt
+R02,Auvergne-Rhône-Alpes,8092048,69711,Hubert
+R03,Hauts-de-France,5973626,31813,Gallet
+R04,Nouvelle-Aquitaine,6063495,84061,Saint Jeannenec
+R05,Occitanie,5985751,72724,Saint Éric
+R06,Normandie,3372000,29906,Rey
+R07,Bretagne,3380000,27208,MarionVille
+R08,Pays de la Loire,3840000,32082,Philippenec
+R09,Grand Est,5577000,57441,Pons
+R10,Provence-PACA,5101000,31400,Lopes-sur-Robert
+R11,Centre-Val de Loire,2577000,32247,Rocher
+R12,Bourgogne-Franche-Comté,2820000,47784,Leblanc-la-Forêt
+R13,Corse,345000,8680,Fabre

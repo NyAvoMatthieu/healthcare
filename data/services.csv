@@ -1,0 +1,16 @@
+service_id,nom_service,departement,specialite,nb_lits
+S01,Cardiologie,Médecine,Cardiologie,40
+S02,Neurologie,Médecine,Neurologie,30
+S03,Urgences,Urgences,Médecine d'urgence,80
+S04,Chirurgie générale,Chirurgie,Chirurgie générale,50
+S05,Pédiatrie,Médecine,Pédiatrie,35
+S06,Gynécologie,Médecine,Gynécologie,25
+S07,Orthopédie,Chirurgie,Orthopédie,45
+S08,Oncologie,Médecine,Oncologie,30
+S09,Réanimation,Réanimation,Réanimation,20
+S10,Pneumologie,Médecine,Pneumologie,28
+S11,Gastro-entérologie,Médecine,Gastroentérologie,32
+S12,Rhumatologie,Médecine,Rhumatologie,22
+S13,Psychiatrie,Psychiatrie,Psychiatrie,40
+S14,Dermatologie,Médecine,Dermatologie,18
+S15,Endocrinologie,Médecine,Endocrinologie,20

@@ -1,0 +1,21 @@
+maladie_id,nom_maladie,code_cim10,categorie,gravite,est_chronique
+M01,Infarctus du myocarde,I21,Cardiovasculaire,5,0
+M02,Accident vasculaire cérébral,I63,Neurologique,5,0
+M03,Pneumonie,J18,Respiratoire,3,0
+M04,Diabète de type 2,E11,Endocrinien,2,1
+M05,Hypertension artérielle,I10,Cardiovasculaire,2,1
+M06,Fracture du col du fémur,S72,Traumatologie,3,0
+M07,Cancer du poumon,C34,Oncologie,5,1
+M08,Insuffisance cardiaque,I50,Cardiovasculaire,4,1
+M09,Appendicite aiguë,K35,Chirurgie,3,0
+M10,Dépression sévère,F32,Psychiatrique,2,1
+M11,BPCO,J44,Respiratoire,3,1
+M12,Sepsis,A41,Infectieux,5,0
+M13,Colique néphrétique,N23,Urologie,2,0
+M14,Gastro-entérite aiguë,A09,Digestif,1,0
+M15,Asthme aigu grave,J45,Respiratoire,3,1
+M16,Thrombose veineuse profonde,I80,Cardiovasculaire,3,0
+M17,Cholécystite aiguë,K81,Chirurgie,3,0
+M18,Insuffisance rénale chronique,N18,Nephrologie,3,1
+M19,Lombalgie aiguë,M54,Rhumatologie,1,0
+M20,COVID-19,U07,Infectieux,4,0
