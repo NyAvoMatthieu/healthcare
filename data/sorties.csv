@@ -109,7 +109,7 @@ SO00121,A00121,2025-12-31,Amélioration
 SO00123,A00123,2025-06-12,Guérison
 SO00125,A00125,2024-09-03,Guérison
 SO00126,A00126,2025-05-08,Guérison
-SO00127,A00127,2026-06-18,Sortie contre avis médical
+SO00127,A00127,2026-06-19,Sortie contre avis médical
 SO00128,A00128,2023-11-03,Sortie contre avis médical
 SO00129,A00129,2023-02-11,Sortie contre avis médical
 SO00130,A00130,2023-11-27,Amélioration
@@ -156,7 +156,7 @@ SO00175,A00175,2023-05-09,Décès
 SO00176,A00176,2026-04-28,Décès
 SO00177,A00177,2024-12-26,Retour à domicile avec soins
 SO00178,A00178,2026-03-27,Sortie contre avis médical
-SO00179,A00179,2026-06-18,Transfert vers autre établissement
+SO00179,A00179,2026-06-19,Transfert vers autre établissement
 SO00180,A00180,2023-03-25,Guérison
 SO00183,A00183,2024-04-10,Décès
 SO00184,A00184,2024-10-20,Transfert vers autre établissement
@@ -192,7 +192,7 @@ SO00219,A00219,2025-12-24,Retour à domicile avec soins
 SO00220,A00220,2023-02-23,Amélioration
 SO00221,A00221,2024-02-05,Amélioration
 SO00222,A00222,2023-07-30,Sortie contre avis médical
-SO00223,A00223,2023-10-06,Sortie contre avis médical
+SO00223,A00223,2026-06-19,Sortie contre avis médical
 SO00224,A00224,2024-01-04,Retour à domicile avec soins
 SO00225,A00225,2025-07-19,Décès
 SO00226,A00226,2024-05-16,Sortie contre avis médical
@@ -248,7 +248,7 @@ SO00278,A00278,2026-04-24,Guérison
 SO00279,A00279,2023-09-29,Sortie contre avis médical
 SO00280,A00280,2024-05-04,Décès
 SO00281,A00281,2024-05-29,Amélioration
-SO00282,A00282,2026-06-18,Amélioration
+SO00282,A00282,2026-06-19,Amélioration
 SO00283,A00283,2023-11-20,Guérison
 SO00284,A00284,2023-04-25,Transfert vers autre établissement
 SO00285,A00285,2024-07-05,Transfert vers autre établissement
@@ -268,7 +268,7 @@ SO00298,A00298,2024-09-07,Amélioration
 SO00299,A00299,2025-02-08,Guérison
 SO00300,A00300,2026-04-02,Transfert vers autre établissement
 SO00301,A00301,2025-03-25,Retour à domicile avec soins
-SO00302,A00302,2026-06-18,Sortie contre avis médical
+SO00302,A00302,2026-06-19,Sortie contre avis médical
 SO00303,A00303,2026-03-03,Transfert vers autre établissement
 SO00304,A00304,2025-11-18,Retour à domicile avec soins
 SO00305,A00305,2024-12-03,Sortie contre avis médical
@@ -289,7 +289,7 @@ SO00322,A00322,2024-11-04,Guérison
 SO00323,A00323,2026-04-08,Amélioration
 SO00324,A00324,2023-11-19,Amélioration
 SO00325,A00325,2024-06-30,Sortie contre avis médical
-SO00327,A00327,2026-06-18,Transfert vers autre établissement
+SO00327,A00327,2026-06-19,Transfert vers autre établissement
 SO00328,A00328,2024-05-04,Retour à domicile avec soins
 SO00329,A00329,2025-08-31,Transfert vers autre établissement
 SO00330,A00330,2023-11-25,Retour à domicile avec soins
@@ -354,7 +354,7 @@ SO00393,A00393,2025-10-19,Sortie contre avis médical
 SO00395,A00395,2023-06-18,Transfert vers autre établissement
 SO00396,A00396,2025-04-25,Retour à domicile avec soins
 SO00397,A00397,2023-01-23,Décès
-SO00398,A00398,2026-06-18,Guérison
+SO00398,A00398,2026-06-19,Guérison
 SO00399,A00399,2025-12-28,Retour à domicile avec soins
 SO00400,A00400,2026-01-31,Transfert vers autre établissement
 SO00401,A00401,2024-01-18,Transfert vers autre établissement
@@ -415,7 +415,7 @@ SO00457,A00457,2026-04-23,Transfert vers autre établissement
 SO00458,A00458,2024-02-20,Retour à domicile avec soins
 SO00459,A00459,2026-06-05,Amélioration
 SO00460,A00460,2025-01-17,Retour à domicile avec soins
-SO00461,A00461,2026-06-18,Guérison
+SO00461,A00461,2026-06-19,Guérison
 SO00462,A00462,2024-05-10,Amélioration
 SO00463,A00463,2025-12-10,Sortie contre avis médical
 SO00464,A00464,2025-06-12,Amélioration

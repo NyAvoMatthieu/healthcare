@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.providers.standard.operators.python import PythonOperator
 
 SCRIPTS_DIR = str(Path(__file__).resolve().parent.parent.parent / "scripts")
 if SCRIPTS_DIR not in sys.path:
@@ -26,7 +26,7 @@ dag = DAG(
     "ingestion_csv_admissions",
     default_args=default_args,
     description="Ingestion admissions, labos, médicaments CSV → warehouse",
-    schedule_interval="@daily",
+    schedule="@daily",
     catchup=False,
     tags=["csv", "admissions", "laboratoires", "ingestion"],
 )

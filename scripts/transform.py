@@ -115,7 +115,13 @@ def transform_dim_patient(staging, wh):
 
     df["tranche_age"] = df["age"].apply(age_grp)
     df["region_id"]   = df["region"].map(region_map).fillna("R01")
-    out = df[["patient_id","tranche_age","sexe","region_id"]].drop_duplicates("patient_id")
+    df["age"]         = pd.to_numeric(df["age"], errors="coerce")
+
+    # Garder toutes les colonnes utiles pour l'analyse
+    keep = ["patient_id", "nom", "prenom", "date_naissance", "age",
+            "sexe", "tranche_age", "region_id"]
+    keep = [c for c in keep if c in df.columns]
+    out = df[keep].drop_duplicates("patient_id")
     out.to_sql("dim_patient", wh, if_exists="replace", index=False)
     return len(out)
 
@@ -181,15 +187,20 @@ def transform_fact_admissions(staging, wh):
         if col not in merged.columns:
             merged[col] = None
 
-    merged["est_urgence"]   = pd.to_numeric(merged.get("urgence", 0), errors="coerce").fillna(0).astype(int)
-    merged["est_readmission"] = 0
-    merged["nb_lits_utilises"] = 1
-    merged["cout_sejour"]   = merged["duree_sejour"] * random.randint(200, 800)
+    merged["est_urgence"]        = pd.to_numeric(merged.get("urgence", 0), errors="coerce").fillna(0).astype(int)
+    merged["mode_admission"]     = merged["est_urgence"].map({1: "Urgence", 0: "Programmée"})
+    merged["est_readmission"]    = 0
+    merged["nb_lits_utilises"]   = 1
+    merged["cout_hospitalisation"] = merged["duree_sejour"] * random.randint(200, 800)
+    merged["cout_sejour"]        = merged["cout_hospitalisation"]
+    merged["mode_sortie"]        = "Domicile"
+    merged["service"]            = merged.get("service", pd.Series(["Médecine générale"] * len(merged)))
 
     out = merged[[
         "admission_id","patient_id","temps_id","hopital_id",
         "service_id","maladie_id","duree_sejour","est_urgence",
-        "nb_lits_utilises","cout_sejour","est_readmission"
+        "mode_admission","mode_sortie","service",
+        "nb_lits_utilises","cout_hospitalisation","cout_sejour","est_readmission"
     ]].drop_duplicates("admission_id").dropna(subset=["temps_id"])
     out["temps_id"] = out["temps_id"].astype(int)
     out.to_sql("fact_admissions", wh, if_exists="replace", index=False)

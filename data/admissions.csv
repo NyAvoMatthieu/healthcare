@@ -221,8 +221,8 @@ A00219,P0049,2025-12-14,Dermatologie,0,Hypertension artérielle,H11,S14,M05
 A00220,P0086,2023-02-07,Réanimation,0,Sepsis,H14,S09,M12
 A00221,P0024,2024-01-29,Gynécologie,0,Thrombose veineuse profonde,H07,S06,M16
 A00222,P0018,2023-07-27,Neurologie,0,Dépression sévère,H05,S02,M10
-A00223,P0070,2023-09-26,Cardiologie,0,BPCO,H17,S01,M11
-A00224,P0020,2023-12-06,Urgences,1,COVID-19,H06,S03,M20
+A00223,P0070,2026-06-19,Cardiologie,0,BPCO,H17,S01,M11
+A00224,P0049,2023-12-06,Urgences,1,Fracture du col du fémur,H05,S03,M06
 A00225,P0006,2025-06-28,Gynécologie,0,Insuffisance cardiaque,H14,S06,M08
 A00226,P0097,2024-05-04,Chirurgie générale,0,Insuffisance rénale chronique,H15,S04,M18
 A00227,P0061,2025-06-21,Gynécologie,0,Lombalgie aiguë,H07,S06,M19

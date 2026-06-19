@@ -1,0 +1,28 @@
+paths:
+  base_dir: /home/nyavo/Documents/S6/Datawarehouse/healthcare-analytics
+  data_dir: data/
+  staging_db: staging/staging.db
+  warehouse_db: warehouse/warehouse.db
+  logs_dir: logs/
+
+mysql:
+  host: localhost
+  port: 3306
+  database: healthcare_db
+  user: healthcare_user
+  password: healthcare_pass
+  charset: utf8mb4
+
+api:
+  base_url: http://localhost:5000/api
+  timeout: 30
+  retry_attempts: 3
+
+airflow:
+  dags_folder: airflow/dags/
+
+etl:
+  batch_size: 1000
+  incremental_lookback_hours: 24
+  staging_db_url: "sqlite:///staging/staging.db"
+  warehouse_db_url: "sqlite:///warehouse/warehouse.db"

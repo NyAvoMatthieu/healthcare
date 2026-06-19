@@ -26,3 +26,14 @@ etl:
   incremental_lookback_hours: 24
   staging_db_url: "sqlite:///staging/staging.db"
   warehouse_db_url: "sqlite:///warehouse/warehouse.db"
+
+email:
+  enabled: false          # true pour activer l'envoi SMTP
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  smtp_user: ""           # votre adresse Gmail
+  smtp_password: ""       # mot de passe d'application Gmail
+  from_addr: ""           # expéditeur (= smtp_user)
+  to_addrs:               # liste des destinataires
+    - barryhela@gmail.com
+  subject_prefix: "[Healthcare Analytics]"

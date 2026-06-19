@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.providers.standard.operators.python import PythonOperator
 
 # Ajouter scripts/ au path pour les imports locaux
 SCRIPTS_DIR = str(Path(__file__).resolve().parent.parent.parent / "scripts")
@@ -29,7 +29,7 @@ dag = DAG(
     "ingestion_csv_patients",
     default_args=default_args,
     description="Ingestion quotidienne des fichiers CSV patients → staging → warehouse",
-    schedule_interval="@daily",
+    schedule="@daily",
     catchup=False,
     tags=["csv", "patients", "ingestion"],
     doc_md="""

@@ -132,7 +132,7 @@ healthcare-analytics/
 git clone <repo-url> healthcare-analytics
 cd healthcare-analytics
 
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate          # Linux / macOS
 # venv\Scripts\activate           # Windows
 
@@ -149,7 +149,7 @@ cp config/config.yaml config/config.yaml.backup
 ### 3. Initialisation complète en une commande
 
 ```bash
-python scripts/init_project.py
+python3 scripts/init_project.py
 ```
 
 Ce script enchaîne automatiquement : génération CSV → staging → warehouse → vérification.

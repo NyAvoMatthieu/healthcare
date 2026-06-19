@@ -1,0 +1,28 @@
+# Apache Airflow — Installation séparée
+#
+# Airflow a de nombreuses dépendances complexes. Utilisez la commande ci-dessous
+# APRÈS avoir installé requirements.txt, en passant le fichier de contraintes
+# officiel pour garantir la compatibilité de toutes les dépendances.
+#
+# Choisissez selon votre version de Python :
+#
+# Python 3.10 :
+#   pip install "apache-airflow==3.2.2" \
+#     --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.2.2/constraints-3.10.txt"
+#
+# Python 3.11 :
+#   pip install "apache-airflow==3.2.2" \
+#     --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.2.2/constraints-3.11.txt"
+#
+# Python 3.12 :
+#   pip install "apache-airflow==3.2.2" \
+#     --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.2.2/constraints-3.12.txt"
+#
+# Python 3.13 :
+#   pip install "apache-airflow==3.2.2" \
+#     --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.2.2/constraints-3.13.txt"
+#
+# Vérification après installation :
+#   airflow version
+
+apache-airflow==3.2.2

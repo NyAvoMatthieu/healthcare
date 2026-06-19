@@ -167,3 +167,107 @@ CREATE TABLE IF NOT EXISTS stg_mysql_admissions (
     source          TEXT DEFAULT 'mysql',
     loaded_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- ------------------------------------------------------------
+-- STAGING TABLES - EXCEL SOURCE
+-- ------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS stg_personnel (
+    medecin_id      TEXT,
+    infirmier_id    TEXT,
+    nom             TEXT,
+    prenom          TEXT,
+    specialite      TEXT,
+    service_id      TEXT,
+    hopital_id      TEXT,
+    grade           TEXT,
+    horaire         TEXT,
+    date_recrutement TEXT,
+    email           TEXT,
+    telephone       TEXT,
+    type_personnel  TEXT,
+    source_file     TEXT,
+    loaded_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS stg_plannings (
+    planning_id     TEXT,
+    personnel_id    TEXT,
+    type_personnel  TEXT,
+    hopital_id      TEXT,
+    service_id      TEXT,
+    date            TEXT,
+    type_garde      TEXT,
+    heure_debut     TEXT,
+    heure_fin       TEXT,
+    statut          TEXT,
+    source_file     TEXT,
+    loaded_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ------------------------------------------------------------
+-- STAGING TABLES - XML SOURCE
+-- ------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS stg_comptes_rendus (
+    cr_id                   TEXT,
+    admission_id            TEXT,
+    patient_id              TEXT,
+    hopital_id              TEXT,
+    medecin_responsable     TEXT,
+    date_admission          TEXT,
+    date_sortie             TEXT,
+    duree_sejour            INTEGER,
+    code_cim10              TEXT,
+    diagnostic_principal    TEXT,
+    diagnostics_secondaires TEXT,
+    mode_entree             TEXT,
+    mode_sortie             TEXT,
+    observations            TEXT,
+    nb_actes                INTEGER,
+    source_file             TEXT,
+    loaded_at               TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS stg_actes_medicaux (
+    cr_id           TEXT,
+    code_acte       TEXT,
+    libelle_acte    TEXT,
+    loaded_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ------------------------------------------------------------
+-- STAGING TABLES - JSON SOURCE
+-- ------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS stg_capteurs_lits (
+    capteur_id      TEXT,
+    hopital_id      TEXT,
+    service_id      TEXT,
+    nom_service     TEXT,
+    timestamp       TEXT,
+    date            TEXT,
+    heure           INTEGER,
+    lits_occupes    INTEGER,
+    lits_total      INTEGER,
+    taux_occupation REAL,
+    alertes         INTEGER DEFAULT 0,
+    source_file     TEXT,
+    loaded_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS stg_stock_pharmacie (
+    stock_id            TEXT,
+    date                TEXT,
+    code_medicament     TEXT,
+    nom_medicament      TEXT,
+    unite               TEXT,
+    stock_disponible    INTEGER,
+    consommation_j      INTEGER,
+    reapprovisionnement INTEGER,
+    prix_unitaire       REAL,
+    valeur_stock        REAL,
+    sous_seuil_alerte   INTEGER DEFAULT 0,
+    source_file         TEXT,
+    loaded_at           TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

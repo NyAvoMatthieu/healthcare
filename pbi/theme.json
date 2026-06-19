@@ -1,0 +1,72 @@
+{
+  "name": "Healthcare Analytics",
+  "dataColors": [
+    "#1565C0",
+    "#0288D1",
+    "#00897B",
+    "#F57C00",
+    "#C62828",
+    "#558B2F",
+    "#7B1FA2",
+    "#37474F"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#212121",
+  "tableAccent": "#1565C0",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": { "value": 28 },
+          "fontBold": { "value": true },
+          "color": { "solid": { "color": "#1565C0" } }
+        }],
+        "label": [{
+          "fontSize": { "value": 11 },
+          "color": { "solid": { "color": "#757575" } }
+        }],
+        "background": [{
+          "show": { "value": true },
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": { "value": 0 }
+        }],
+        "border": [{
+          "show": { "value": true },
+          "color": { "solid": { "color": "#E0E0E0" } },
+          "radius": { "value": 8 }
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1565C0" } }
+        }],
+        "categoryAxis": [{
+          "fontSize": { "value": 10 }
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{
+          "strokeWidth": { "value": 2 }
+        }]
+      }
+    },
+    "gauge": {
+      "*": {
+        "gauge": [{
+          "arcColor": { "solid": { "color": "#1565C0" } },
+          "arcBackgroundColor": { "solid": { "color": "#E3F2FD" } }
+        }]
+      }
+    }
+  }
+}

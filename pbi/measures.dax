@@ -1,0 +1,245 @@
+// ============================================================================
+// measures.dax — Mesures DAX pour Healthcare Analytics Platform
+//
+// Instructions :
+//   1. Dans Power BI Desktop, créer une table vide nommée "_Mesures"
+//      (Modélisation > Nouvelle table > _Mesures = {""})
+//   2. Pour chaque mesure ci-dessous :
+//      Modélisation > Nouvelle mesure > coller la formule
+// ============================================================================
+
+
+// ============================================================================
+// SECTION 1 — ADMISSIONS & ACTIVITÉ
+// ============================================================================
+
+// Nombre total d'admissions
+Total Admissions =
+    COUNTROWS(fact_admissions)
+
+// Nombre de patients distincts ayant eu au moins une admission
+Patients Distincts =
+    DISTINCTCOUNT(fact_admissions[patient_id])
+
+// Durée Moyenne de Séjour (DMS)
+DMS Moyen =
+    AVERAGEX(
+        FILTER(fact_admissions, fact_admissions[duree_sejour] > 0),
+        fact_admissions[duree_sejour]
+    )
+
+// Coût moyen par séjour
+Coût Moyen Séjour =
+    AVERAGE(fact_admissions[cout_hospitalisation])
+
+// Coût total des hospitalisations
+Coût Total =
+    SUM(fact_admissions[cout_hospitalisation])
+
+// Pourcentage d'admissions via les urgences
+% Admissions Urgences =
+    DIVIDE(
+        CALCULATE(COUNTROWS(fact_admissions),
+                  fact_admissions[mode_admission] = "Urgence"),
+        COUNTROWS(fact_admissions),
+        0
+    ) * 100
+
+// Nombre d'admissions programmées
+Admissions Programmées =
+    CALCULATE(COUNTROWS(fact_admissions),
+              fact_admissions[mode_admission] = "Programmée")
+
+// Taux de réadmission (patients avec 2+ séjours)
+Taux Réadmission =
+    DIVIDE(
+        COUNTROWS(
+            FILTER(
+                ADDCOLUMNS(
+                    SUMMARIZE(fact_admissions, fact_admissions[patient_id]),
+                    "nb_sejours", CALCULATE(COUNTROWS(fact_admissions))
+                ),
+                [nb_sejours] >= 2
+            )
+        ),
+        DISTINCTCOUNT(fact_admissions[patient_id]),
+        0
+    ) * 100
+
+
+// ============================================================================
+// SECTION 2 — PATIENTS
+// ============================================================================
+
+// Âge moyen des patients admis
+Âge Moyen Patients =
+    AVERAGEX(
+        NATURALINNERJOIN(fact_admissions, dim_patient),
+        dim_patient[age]
+    )
+
+// Nombre de patients masculins
+Patients Hommes =
+    CALCULATE(
+        DISTINCTCOUNT(dim_patient[patient_id]),
+        dim_patient[sexe] = "M"
+    )
+
+// Nombre de patientes féminines
+Patientes Femmes =
+    CALCULATE(
+        DISTINCTCOUNT(dim_patient[patient_id]),
+        dim_patient[sexe] = "F"
+    )
+
+// % femmes parmi les admissions
+% Femmes =
+    DIVIDE([Patientes Femmes], [Patients Distincts], 0) * 100
+
+
+// ============================================================================
+// SECTION 3 — HÔPITAUX & CAPACITÉ
+// ============================================================================
+
+// Nombre d'hôpitaux actifs (ayant eu des admissions)
+Hôpitaux Actifs =
+    DISTINCTCOUNT(fact_admissions[hopital_id])
+
+// Capacité totale en lits (somme sur tous les hôpitaux sélectionnés)
+Capacité Totale Lits =
+    SUMX(
+        VALUES(dim_hopital[hopital_id]),
+        CALCULATE(MAX(dim_hopital[capacite_lits]))
+    )
+
+// Taux d'occupation moyen des lits (depuis capteurs IoT)
+Taux Occupation Moyen =
+    AVERAGE(fact_occupation_lits[taux_occupation])
+
+// Pic d'occupation (maximum enregistré)
+Pic Occupation =
+    MAX(fact_occupation_lits[taux_occupation])
+
+// Nombre d'alertes capacité déclenchées
+Alertes Capacité =
+    SUM(fact_occupation_lits[alertes])
+
+// Admissions par lit disponible (ratio charge)
+Ratio Charge =
+    DIVIDE([Total Admissions], [Capacité Totale Lits], 0)
+
+
+// ============================================================================
+// SECTION 4 — MALADIES & ÉPIDÉMIOLOGIE
+// ============================================================================
+
+// Nombre de pathologies distinctes traitées
+Pathologies Distinctes =
+    DISTINCTCOUNT(fact_admissions[maladie_id])
+
+// Nombre de maladies chroniques traitées
+Maladies Chroniques =
+    CALCULATE(
+        COUNTROWS(fact_admissions),
+        RELATED(dim_maladie[est_chronique]) = 1
+    )
+
+// % de séjours pour maladie chronique
+% Maladies Chroniques =
+    DIVIDE([Maladies Chroniques], [Total Admissions], 0) * 100
+
+// DMS moyen pour maladies chroniques vs aiguës
+DMS Chroniques =
+    CALCULATE([DMS Moyen],
+              FILTER(dim_maladie, dim_maladie[est_chronique] = 1))
+
+DMS Aiguës =
+    CALCULATE([DMS Moyen],
+              FILTER(dim_maladie, dim_maladie[est_chronique] = 0))
+
+
+// ============================================================================
+// SECTION 5 — LABORATOIRES
+// ============================================================================
+
+// Nombre total d'analyses réalisées
+Total Analyses =
+    COUNTROWS(fact_laboratoires)
+
+// Analyses par admission
+Analyses par Admission =
+    DIVIDE([Total Analyses], [Total Admissions], 0)
+
+// Taux d'anomalies détectées
+Taux Anomalies =
+    DIVIDE(
+        CALCULATE(COUNTROWS(fact_laboratoires),
+                  fact_laboratoires[est_anormal] = 1),
+        COUNTROWS(fact_laboratoires),
+        0
+    ) * 100
+
+
+// ============================================================================
+// SECTION 6 — PRESCRIPTIONS
+// ============================================================================
+
+// Nombre total de prescriptions
+Total Prescriptions =
+    COUNTROWS(fact_prescriptions)
+
+// Prescriptions par admission
+Prescriptions par Admission =
+    DIVIDE([Total Prescriptions], [Total Admissions], 0)
+
+// Coût total des médicaments
+Coût Médicaments Total =
+    SUMX(fact_prescriptions,
+         fact_prescriptions[quantite] * fact_prescriptions[prix_unitaire])
+
+
+// ============================================================================
+// SECTION 7 — PHARMACIE & STOCK
+// ============================================================================
+
+// Valeur totale du stock
+Valeur Stock Total =
+    SUM(fact_stock_pharmacie[valeur_stock])
+
+// Nombre de ruptures de stock (sous seuil d'alerte)
+Ruptures Stock =
+    CALCULATE(COUNTROWS(fact_stock_pharmacie),
+              fact_stock_pharmacie[sous_seuil_alerte] = 1)
+
+// % médicaments en alerte stock
+% Alerte Stock =
+    DIVIDE([Ruptures Stock],
+           COUNTROWS(fact_stock_pharmacie), 0) * 100
+
+
+// ============================================================================
+// SECTION 8 — TEMPOREL & TENDANCES
+// ============================================================================
+
+// Admissions sur la période précédente (comparaison)
+Admissions Période Précédente =
+    CALCULATE(
+        [Total Admissions],
+        DATEADD(dim_temps[date], -1, MONTH)
+    )
+
+// Variation admissions (mois en cours vs mois précédent)
+Δ Admissions vs Mois Précédent =
+    [Total Admissions] - [Admissions Période Précédente]
+
+// Croissance en % vs mois précédent
+% Croissance Admissions =
+    DIVIDE([Δ Admissions vs Mois Précédent],
+           [Admissions Période Précédente], 0) * 100
+
+// Admissions en semaine vs weekend
+Admissions Semaine =
+    CALCULATE([Total Admissions], dim_temps[est_weekend] = 0)
+
+Admissions Weekend =
+    CALCULATE([Total Admissions], dim_temps[est_weekend] = 1)

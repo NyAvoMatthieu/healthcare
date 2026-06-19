@@ -302,200 +302,200 @@ RX00300,P0039,Levothyroxine 50,50µg,1x/jour,30,1,2024-08-24
 RX00301,P0034,Atorvastatine 20,20mg,1x/jour,30,1,2023-01-05
 RX00302,P0095,Insuline Glargine,10 UI,1x/jour,30,1,2025-03-17
 RX00303,P0028,Furosémide 40,40mg,1x/jour,14,1,2025-11-21
-RX00304,P0005,Warfarine 5,5mg,1x/jour,90,1,2025-09-26
-RX00305,P0008,Héparine 5000,5000 UI,2x/jour,7,0,2023-01-13
-RX00306,P0079,Warfarine 5,5mg,1x/jour,90,1,2024-11-03
-RX00307,P0039,Héparine 5000,5000 UI,2x/jour,7,0,2023-08-08
-RX00308,P0001,Héparine 5000,5000 UI,2x/jour,7,0,2024-01-17
-RX00309,P0052,Héparine 5000,5000 UI,2x/jour,7,0,2023-01-19
-RX00310,P0013,Salbutamol spray,200µg,au besoin,30,1,2025-10-04
-RX00311,P0026,Metformine 850,850mg,2x/jour,30,1,2025-12-19
-RX00312,P0066,Oméprazole 20,20mg,1x/jour,14,0,2025-04-21
-RX00313,P0016,Levothyroxine 50,50µg,1x/jour,30,1,2023-01-15
-RX00314,P0020,Ramipril 5,5mg,1x/jour,30,1,2024-04-08
-RX00315,P0061,Prednisone 20,20mg,1x/jour,10,0,2025-02-05
-RX00316,P0039,Héparine 5000,5000 UI,2x/jour,7,0,2025-05-27
-RX00317,P0024,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-07-05
-RX00318,P0014,Warfarine 5,5mg,1x/jour,90,1,2025-06-18
-RX00319,P0021,Oméprazole 20,20mg,1x/jour,14,0,2024-12-25
-RX00320,P0096,Salbutamol spray,200µg,au besoin,30,1,2023-01-12
-RX00321,P0046,Atorvastatine 20,20mg,1x/jour,30,1,2023-08-15
-RX00322,P0025,Furosémide 40,40mg,1x/jour,14,1,2023-03-24
-RX00323,P0018,Prednisone 20,20mg,1x/jour,10,0,2025-05-12
-RX00324,P0096,Morphine 10,10mg,4x/jour,3,0,2023-03-06
-RX00325,P0021,Atorvastatine 20,20mg,1x/jour,30,1,2025-09-08
-RX00326,P0086,Ramipril 5,5mg,1x/jour,30,1,2023-09-01
-RX00327,P0054,Levothyroxine 50,50µg,1x/jour,30,1,2026-01-31
-RX00328,P0064,Oméprazole 20,20mg,1x/jour,14,0,2024-10-27
-RX00329,P0097,Prednisone 20,20mg,1x/jour,10,0,2025-10-24
-RX00330,P0093,Prednisone 20,20mg,1x/jour,10,0,2023-09-27
-RX00331,P0015,Amlodipine 5,5mg,1x/jour,30,1,2023-02-13
-RX00332,P0017,Oméprazole 20,20mg,1x/jour,14,0,2024-12-05
-RX00333,P0065,Paracétamol 1g,1g,3x/jour,5,0,2024-04-29
-RX00334,P0007,Morphine 10,10mg,4x/jour,3,0,2025-05-29
-RX00335,P0077,Paracétamol 1g,1g,3x/jour,5,0,2025-06-08
-RX00336,P0062,Furosémide 40,40mg,1x/jour,14,1,2024-07-31
-RX00337,P0063,Metformine 850,850mg,2x/jour,30,1,2025-05-28
-RX00338,P0032,Doxycycline 100,100mg,2x/jour,10,0,2023-11-09
-RX00339,P0094,Sertraline 50,50mg,1x/jour,30,1,2024-01-18
-RX00340,P0032,Ramipril 5,5mg,1x/jour,30,1,2023-08-24
-RX00341,P0034,Bisoprolol 5,5mg,1x/jour,30,1,2025-05-28
-RX00342,P0026,Levothyroxine 50,50µg,1x/jour,30,1,2023-07-31
-RX00343,P0090,Sertraline 50,50mg,1x/jour,30,1,2026-06-05
-RX00344,P0024,Atorvastatine 20,20mg,1x/jour,30,1,2026-04-25
-RX00345,P0081,Oméprazole 20,20mg,1x/jour,14,0,2024-04-14
-RX00346,P0016,Oméprazole 20,20mg,1x/jour,14,0,2025-04-01
-RX00347,P0005,Ramipril 5,5mg,1x/jour,30,1,2024-01-29
-RX00348,P0019,Salbutamol spray,200µg,au besoin,30,1,2023-02-06
-RX00349,P0079,Atorvastatine 20,20mg,1x/jour,30,1,2023-07-06
-RX00350,P0007,Prednisone 20,20mg,1x/jour,10,0,2025-04-14
-RX00351,P0068,Furosémide 40,40mg,1x/jour,14,1,2024-04-18
-RX00352,P0029,Morphine 10,10mg,4x/jour,3,0,2025-05-22
-RX00353,P0062,Amoxicilline 500,500mg,3x/jour,7,0,2025-11-10
-RX00354,P0055,Amoxicilline 500,500mg,3x/jour,7,0,2024-09-15
-RX00355,P0015,Ramipril 5,5mg,1x/jour,30,1,2025-01-14
-RX00356,P0036,Héparine 5000,5000 UI,2x/jour,7,0,2025-05-06
-RX00357,P0032,Morphine 10,10mg,4x/jour,3,0,2023-04-08
-RX00358,P0024,Amoxicilline 500,500mg,3x/jour,7,0,2023-01-02
-RX00359,P0007,Morphine 10,10mg,4x/jour,3,0,2024-03-10
-RX00360,P0037,Levothyroxine 50,50µg,1x/jour,30,1,2024-07-27
-RX00361,P0078,Amlodipine 5,5mg,1x/jour,30,1,2025-06-01
-RX00362,P0024,Ramipril 5,5mg,1x/jour,30,1,2025-10-03
-RX00363,P0047,Morphine 10,10mg,4x/jour,3,0,2024-09-15
-RX00364,P0015,Amlodipine 5,5mg,1x/jour,30,1,2023-01-28
-RX00365,P0088,Alprazolam 0.25,0.25mg,2x/jour,14,0,2023-09-24
-RX00366,P0043,Héparine 5000,5000 UI,2x/jour,7,0,2025-01-10
-RX00367,P0096,Insuline Glargine,10 UI,1x/jour,30,1,2025-12-19
-RX00368,P0078,Héparine 5000,5000 UI,2x/jour,7,0,2024-05-02
-RX00369,P0084,Ramipril 5,5mg,1x/jour,30,1,2024-03-06
-RX00370,P0075,Prednisone 20,20mg,1x/jour,10,0,2023-06-28
-RX00371,P0014,Oméprazole 20,20mg,1x/jour,14,0,2026-05-17
-RX00372,P0016,Amoxicilline 500,500mg,3x/jour,7,0,2026-04-16
-RX00373,P0084,Atorvastatine 20,20mg,1x/jour,30,1,2024-01-31
-RX00374,P0091,Warfarine 5,5mg,1x/jour,90,1,2023-07-22
-RX00375,P0010,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-12-03
-RX00376,P0039,Levothyroxine 50,50µg,1x/jour,30,1,2024-02-18
-RX00377,P0069,Oméprazole 20,20mg,1x/jour,14,0,2023-03-31
-RX00378,P0017,Atorvastatine 20,20mg,1x/jour,30,1,2025-05-06
-RX00379,P0071,Ramipril 5,5mg,1x/jour,30,1,2026-02-21
-RX00380,P0045,Héparine 5000,5000 UI,2x/jour,7,0,2025-07-07
-RX00381,P0081,Amlodipine 5,5mg,1x/jour,30,1,2025-06-12
-RX00382,P0009,Levothyroxine 50,50µg,1x/jour,30,1,2025-05-08
-RX00383,P0068,Sertraline 50,50mg,1x/jour,30,1,2023-02-14
-RX00384,P0022,Doxycycline 100,100mg,2x/jour,10,0,2024-07-15
-RX00385,P0090,Oméprazole 20,20mg,1x/jour,14,0,2024-08-16
-RX00386,P0006,Insuline Glargine,10 UI,1x/jour,30,1,2023-05-05
-RX00387,P0089,Atorvastatine 20,20mg,1x/jour,30,1,2025-03-25
-RX00388,P0064,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-11-17
-RX00389,P0010,Ibuprofène 400,400mg,3x/jour,5,0,2025-06-15
-RX00390,P0097,Sertraline 50,50mg,1x/jour,30,1,2025-02-25
-RX00391,P0072,Prednisone 20,20mg,1x/jour,10,0,2025-03-31
-RX00392,P0078,Ramipril 5,5mg,1x/jour,30,1,2024-02-28
-RX00393,P0024,Paracétamol 1g,1g,3x/jour,5,0,2023-11-24
-RX00394,P0074,Atorvastatine 20,20mg,1x/jour,30,1,2026-04-27
-RX00395,P0090,Paracétamol 1g,1g,3x/jour,5,0,2025-11-16
-RX00396,P0059,Sertraline 50,50mg,1x/jour,30,1,2025-12-11
-RX00397,P0034,Furosémide 40,40mg,1x/jour,14,1,2024-03-27
-RX00398,P0038,Ramipril 5,5mg,1x/jour,30,1,2026-02-04
-RX00399,P0016,Ibuprofène 400,400mg,3x/jour,5,0,2024-04-03
-RX00400,P0006,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-05-02
-RX00401,P0038,Amoxicilline 500,500mg,3x/jour,7,0,2023-10-31
-RX00402,P0036,Oméprazole 20,20mg,1x/jour,14,0,2024-07-07
-RX00403,P0007,Bisoprolol 5,5mg,1x/jour,30,1,2024-03-06
-RX00404,P0069,Amlodipine 5,5mg,1x/jour,30,1,2023-01-03
-RX00405,P0084,Héparine 5000,5000 UI,2x/jour,7,0,2026-05-24
-RX00406,P0048,Morphine 10,10mg,4x/jour,3,0,2023-06-20
-RX00407,P0091,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-06-24
-RX00408,P0093,Oméprazole 20,20mg,1x/jour,14,0,2025-04-16
-RX00409,P0079,Furosémide 40,40mg,1x/jour,14,1,2024-10-26
-RX00410,P0008,Paracétamol 1g,1g,3x/jour,5,0,2024-12-29
-RX00411,P0029,Ramipril 5,5mg,1x/jour,30,1,2023-12-28
-RX00412,P0033,Paracétamol 1g,1g,3x/jour,5,0,2026-01-05
-RX00413,P0085,Insuline Glargine,10 UI,1x/jour,30,1,2023-08-06
-RX00414,P0093,Prednisone 20,20mg,1x/jour,10,0,2024-06-11
-RX00415,P0081,Doxycycline 100,100mg,2x/jour,10,0,2026-02-02
-RX00416,P0027,Warfarine 5,5mg,1x/jour,90,1,2024-03-27
-RX00417,P0042,Ramipril 5,5mg,1x/jour,30,1,2024-02-22
-RX00418,P0075,Prednisone 20,20mg,1x/jour,10,0,2023-11-15
-RX00419,P0058,Bisoprolol 5,5mg,1x/jour,30,1,2025-06-07
-RX00420,P0048,Oméprazole 20,20mg,1x/jour,14,0,2025-09-08
-RX00421,P0012,Levothyroxine 50,50µg,1x/jour,30,1,2024-01-07
-RX00422,P0059,Ibuprofène 400,400mg,3x/jour,5,0,2023-12-27
-RX00423,P0025,Insuline Glargine,10 UI,1x/jour,30,1,2025-10-01
-RX00424,P0094,Ibuprofène 400,400mg,3x/jour,5,0,2024-07-31
-RX00425,P0003,Furosémide 40,40mg,1x/jour,14,1,2023-11-30
-RX00426,P0023,Prednisone 20,20mg,1x/jour,10,0,2026-05-29
-RX00427,P0025,Metformine 850,850mg,2x/jour,30,1,2023-10-21
-RX00428,P0010,Salbutamol spray,200µg,au besoin,30,1,2024-05-17
-RX00429,P0059,Prednisone 20,20mg,1x/jour,10,0,2023-07-25
-RX00430,P0093,Sertraline 50,50mg,1x/jour,30,1,2023-10-09
-RX00431,P0094,Paracétamol 1g,1g,3x/jour,5,0,2026-05-20
-RX00432,P0013,Prednisone 20,20mg,1x/jour,10,0,2025-02-25
-RX00433,P0003,Amlodipine 5,5mg,1x/jour,30,1,2023-01-28
-RX00434,P0098,Amoxicilline 500,500mg,3x/jour,7,0,2023-09-28
-RX00435,P0032,Metformine 850,850mg,2x/jour,30,1,2024-07-02
-RX00436,P0019,Doxycycline 100,100mg,2x/jour,10,0,2023-01-28
-RX00437,P0002,Amlodipine 5,5mg,1x/jour,30,1,2026-01-15
-RX00438,P0095,Morphine 10,10mg,4x/jour,3,0,2023-06-24
-RX00439,P0026,Oméprazole 20,20mg,1x/jour,14,0,2025-09-10
-RX00440,P0098,Insuline Glargine,10 UI,1x/jour,30,1,2025-06-28
-RX00441,P0021,Furosémide 40,40mg,1x/jour,14,1,2024-11-10
-RX00442,P0062,Oméprazole 20,20mg,1x/jour,14,0,2024-05-14
-RX00443,P0008,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-07-01
-RX00444,P0081,Alprazolam 0.25,0.25mg,2x/jour,14,0,2023-09-10
-RX00445,P0003,Amoxicilline 500,500mg,3x/jour,7,0,2023-07-30
-RX00446,P0070,Furosémide 40,40mg,1x/jour,14,1,2023-07-30
-RX00447,P0066,Salbutamol spray,200µg,au besoin,30,1,2023-10-18
-RX00448,P0001,Bisoprolol 5,5mg,1x/jour,30,1,2023-02-19
-RX00449,P0030,Salbutamol spray,200µg,au besoin,30,1,2025-02-28
-RX00450,P0019,Héparine 5000,5000 UI,2x/jour,7,0,2024-08-10
-RX00451,P0029,Prednisone 20,20mg,1x/jour,10,0,2023-08-19
-RX00452,P0063,Ibuprofène 400,400mg,3x/jour,5,0,2023-08-14
-RX00453,P0029,Amlodipine 5,5mg,1x/jour,30,1,2024-07-31
-RX00454,P0046,Metformine 850,850mg,2x/jour,30,1,2026-06-14
-RX00455,P0043,Amlodipine 5,5mg,1x/jour,30,1,2025-01-08
-RX00456,P0011,Amoxicilline 500,500mg,3x/jour,7,0,2026-05-23
-RX00457,P0020,Ibuprofène 400,400mg,3x/jour,5,0,2025-05-27
-RX00458,P0068,Morphine 10,10mg,4x/jour,3,0,2026-05-13
-RX00459,P0024,Salbutamol spray,200µg,au besoin,30,1,2023-11-04
-RX00460,P0086,Furosémide 40,40mg,1x/jour,14,1,2024-08-10
-RX00461,P0045,Amlodipine 5,5mg,1x/jour,30,1,2024-07-09
-RX00462,P0064,Héparine 5000,5000 UI,2x/jour,7,0,2024-06-27
-RX00463,P0092,Metformine 850,850mg,2x/jour,30,1,2023-01-05
-RX00464,P0020,Oméprazole 20,20mg,1x/jour,14,0,2024-10-17
-RX00465,P0019,Prednisone 20,20mg,1x/jour,10,0,2025-07-03
-RX00466,P0093,Levothyroxine 50,50µg,1x/jour,30,1,2023-05-18
-RX00467,P0015,Insuline Glargine,10 UI,1x/jour,30,1,2025-05-25
-RX00468,P0094,Ramipril 5,5mg,1x/jour,30,1,2023-10-24
-RX00469,P0012,Morphine 10,10mg,4x/jour,3,0,2023-09-19
-RX00470,P0024,Prednisone 20,20mg,1x/jour,10,0,2024-12-23
-RX00471,P0041,Levothyroxine 50,50µg,1x/jour,30,1,2025-05-18
-RX00472,P0062,Salbutamol spray,200µg,au besoin,30,1,2026-05-17
-RX00473,P0082,Morphine 10,10mg,4x/jour,3,0,2023-10-11
-RX00474,P0084,Bisoprolol 5,5mg,1x/jour,30,1,2025-02-23
-RX00475,P0054,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-10-15
-RX00476,P0069,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-10-05
-RX00477,P0069,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-04-16
-RX00478,P0050,Metformine 850,850mg,2x/jour,30,1,2026-04-04
-RX00479,P0092,Salbutamol spray,200µg,au besoin,30,1,2025-12-15
-RX00480,P0074,Bisoprolol 5,5mg,1x/jour,30,1,2023-06-28
-RX00481,P0031,Héparine 5000,5000 UI,2x/jour,7,0,2023-01-06
-RX00482,P0027,Paracétamol 1g,1g,3x/jour,5,0,2025-01-12
-RX00483,P0072,Levothyroxine 50,50µg,1x/jour,30,1,2023-10-01
-RX00484,P0015,Amoxicilline 500,500mg,3x/jour,7,0,2024-12-16
-RX00485,P0047,Oméprazole 20,20mg,1x/jour,14,0,2024-08-26
-RX00486,P0059,Oméprazole 20,20mg,1x/jour,14,0,2026-02-03
-RX00487,P0054,Bisoprolol 5,5mg,1x/jour,30,1,2024-03-07
-RX00488,P0029,Amoxicilline 500,500mg,3x/jour,7,0,2023-10-10
-RX00489,P0016,Oméprazole 20,20mg,1x/jour,14,0,2025-02-12
-RX00490,P0094,Paracétamol 1g,1g,3x/jour,5,0,2025-05-19
-RX00491,P0048,Amoxicilline 500,500mg,3x/jour,7,0,2023-08-06
-RX00492,P0085,Insuline Glargine,10 UI,1x/jour,30,1,2023-06-01
-RX00493,P0062,Doxycycline 100,100mg,2x/jour,10,0,2023-11-20
-RX00494,P0004,Oméprazole 20,20mg,1x/jour,14,0,2025-01-18
-RX00495,P0019,Metformine 850,850mg,2x/jour,30,1,2024-05-16
-RX00496,P0010,Paracétamol 1g,1g,3x/jour,5,0,2026-03-11
-RX00497,P0054,Oméprazole 20,20mg,1x/jour,14,0,2024-01-09
-RX00498,P0061,Oméprazole 20,20mg,1x/jour,14,0,2025-12-16
-RX00499,P0090,Furosémide 40,40mg,1x/jour,14,1,2025-08-20
-RX00500,P0053,Morphine 10,10mg,4x/jour,3,0,2025-06-28
+RX00304,P0005,Warfarine 5,5mg,1x/jour,90,1,2026-06-19
+RX00305,P0063,Amoxicilline 500,500mg,3x/jour,7,0,2024-12-29
+RX00306,P0001,Doxycycline 100,100mg,2x/jour,10,0,2025-07-31
+RX00307,P0043,Furosémide 40,40mg,1x/jour,14,1,2024-12-25
+RX00308,P0014,Paracétamol 1g,1g,3x/jour,5,0,2024-12-17
+RX00309,P0093,Ibuprofène 400,400mg,3x/jour,5,0,2025-04-03
+RX00310,P0046,Paracétamol 1g,1g,3x/jour,5,0,2023-07-27
+RX00311,P0056,Levothyroxine 50,50µg,1x/jour,30,1,2024-02-09
+RX00312,P0011,Sertraline 50,50mg,1x/jour,30,1,2025-11-19
+RX00313,P0020,Salbutamol spray,200µg,au besoin,30,1,2023-09-11
+RX00314,P0063,Paracétamol 1g,1g,3x/jour,5,0,2023-11-15
+RX00315,P0099,Ramipril 5,5mg,1x/jour,30,1,2024-04-08
+RX00316,P0061,Prednisone 20,20mg,1x/jour,10,0,2025-02-05
+RX00317,P0039,Héparine 5000,5000 UI,2x/jour,7,0,2025-05-27
+RX00318,P0024,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-07-05
+RX00319,P0014,Warfarine 5,5mg,1x/jour,90,1,2025-06-18
+RX00320,P0021,Oméprazole 20,20mg,1x/jour,14,0,2024-12-25
+RX00321,P0096,Salbutamol spray,200µg,au besoin,30,1,2023-01-12
+RX00322,P0046,Atorvastatine 20,20mg,1x/jour,30,1,2023-08-15
+RX00323,P0025,Furosémide 40,40mg,1x/jour,14,1,2023-03-24
+RX00324,P0018,Prednisone 20,20mg,1x/jour,10,0,2025-05-12
+RX00325,P0096,Morphine 10,10mg,4x/jour,3,0,2023-03-06
+RX00326,P0021,Atorvastatine 20,20mg,1x/jour,30,1,2025-09-08
+RX00327,P0086,Ramipril 5,5mg,1x/jour,30,1,2023-09-01
+RX00328,P0054,Levothyroxine 50,50µg,1x/jour,30,1,2026-01-31
+RX00329,P0064,Oméprazole 20,20mg,1x/jour,14,0,2024-10-27
+RX00330,P0097,Prednisone 20,20mg,1x/jour,10,0,2025-10-24
+RX00331,P0093,Prednisone 20,20mg,1x/jour,10,0,2023-09-27
+RX00332,P0015,Amlodipine 5,5mg,1x/jour,30,1,2023-02-13
+RX00333,P0017,Oméprazole 20,20mg,1x/jour,14,0,2024-12-05
+RX00334,P0065,Paracétamol 1g,1g,3x/jour,5,0,2024-04-29
+RX00335,P0007,Morphine 10,10mg,4x/jour,3,0,2025-05-29
+RX00336,P0077,Paracétamol 1g,1g,3x/jour,5,0,2025-06-08
+RX00337,P0062,Furosémide 40,40mg,1x/jour,14,1,2024-07-31
+RX00338,P0063,Metformine 850,850mg,2x/jour,30,1,2025-05-28
+RX00339,P0032,Doxycycline 100,100mg,2x/jour,10,0,2023-11-09
+RX00340,P0094,Sertraline 50,50mg,1x/jour,30,1,2024-01-18
+RX00341,P0032,Ramipril 5,5mg,1x/jour,30,1,2023-08-24
+RX00342,P0034,Bisoprolol 5,5mg,1x/jour,30,1,2025-05-28
+RX00343,P0026,Levothyroxine 50,50µg,1x/jour,30,1,2023-07-31
+RX00344,P0090,Sertraline 50,50mg,1x/jour,30,1,2026-06-05
+RX00345,P0024,Atorvastatine 20,20mg,1x/jour,30,1,2026-04-25
+RX00346,P0081,Oméprazole 20,20mg,1x/jour,14,0,2024-04-14
+RX00347,P0016,Oméprazole 20,20mg,1x/jour,14,0,2025-04-01
+RX00348,P0005,Ramipril 5,5mg,1x/jour,30,1,2024-01-29
+RX00349,P0019,Salbutamol spray,200µg,au besoin,30,1,2023-02-06
+RX00350,P0079,Atorvastatine 20,20mg,1x/jour,30,1,2023-07-06
+RX00351,P0007,Prednisone 20,20mg,1x/jour,10,0,2025-04-14
+RX00352,P0068,Furosémide 40,40mg,1x/jour,14,1,2024-04-18
+RX00353,P0029,Morphine 10,10mg,4x/jour,3,0,2025-05-22
+RX00354,P0062,Amoxicilline 500,500mg,3x/jour,7,0,2025-11-10
+RX00355,P0055,Amoxicilline 500,500mg,3x/jour,7,0,2024-09-15
+RX00356,P0015,Ramipril 5,5mg,1x/jour,30,1,2025-01-14
+RX00357,P0036,Héparine 5000,5000 UI,2x/jour,7,0,2025-05-06
+RX00358,P0032,Morphine 10,10mg,4x/jour,3,0,2023-04-08
+RX00359,P0024,Amoxicilline 500,500mg,3x/jour,7,0,2023-01-02
+RX00360,P0007,Morphine 10,10mg,4x/jour,3,0,2024-03-10
+RX00361,P0037,Levothyroxine 50,50µg,1x/jour,30,1,2024-07-27
+RX00362,P0078,Amlodipine 5,5mg,1x/jour,30,1,2025-06-01
+RX00363,P0024,Ramipril 5,5mg,1x/jour,30,1,2025-10-03
+RX00364,P0047,Morphine 10,10mg,4x/jour,3,0,2024-09-15
+RX00365,P0015,Amlodipine 5,5mg,1x/jour,30,1,2023-01-28
+RX00366,P0088,Alprazolam 0.25,0.25mg,2x/jour,14,0,2023-09-24
+RX00367,P0043,Héparine 5000,5000 UI,2x/jour,7,0,2025-01-10
+RX00368,P0096,Insuline Glargine,10 UI,1x/jour,30,1,2025-12-19
+RX00369,P0078,Héparine 5000,5000 UI,2x/jour,7,0,2024-05-02
+RX00370,P0084,Ramipril 5,5mg,1x/jour,30,1,2024-03-06
+RX00371,P0075,Prednisone 20,20mg,1x/jour,10,0,2023-06-28
+RX00372,P0014,Oméprazole 20,20mg,1x/jour,14,0,2026-05-17
+RX00373,P0016,Amoxicilline 500,500mg,3x/jour,7,0,2026-04-16
+RX00374,P0084,Atorvastatine 20,20mg,1x/jour,30,1,2024-01-31
+RX00375,P0091,Warfarine 5,5mg,1x/jour,90,1,2023-07-22
+RX00376,P0010,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-12-03
+RX00377,P0039,Levothyroxine 50,50µg,1x/jour,30,1,2024-02-18
+RX00378,P0069,Oméprazole 20,20mg,1x/jour,14,0,2023-03-31
+RX00379,P0017,Atorvastatine 20,20mg,1x/jour,30,1,2025-05-06
+RX00380,P0071,Ramipril 5,5mg,1x/jour,30,1,2026-02-21
+RX00381,P0045,Héparine 5000,5000 UI,2x/jour,7,0,2025-07-07
+RX00382,P0081,Amlodipine 5,5mg,1x/jour,30,1,2025-06-12
+RX00383,P0009,Levothyroxine 50,50µg,1x/jour,30,1,2025-05-08
+RX00384,P0068,Sertraline 50,50mg,1x/jour,30,1,2023-02-14
+RX00385,P0022,Doxycycline 100,100mg,2x/jour,10,0,2024-07-15
+RX00386,P0090,Oméprazole 20,20mg,1x/jour,14,0,2024-08-16
+RX00387,P0006,Insuline Glargine,10 UI,1x/jour,30,1,2023-05-05
+RX00388,P0089,Atorvastatine 20,20mg,1x/jour,30,1,2025-03-25
+RX00389,P0064,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-11-17
+RX00390,P0010,Ibuprofène 400,400mg,3x/jour,5,0,2025-06-15
+RX00391,P0097,Sertraline 50,50mg,1x/jour,30,1,2025-02-25
+RX00392,P0072,Prednisone 20,20mg,1x/jour,10,0,2025-03-31
+RX00393,P0078,Ramipril 5,5mg,1x/jour,30,1,2024-02-28
+RX00394,P0024,Paracétamol 1g,1g,3x/jour,5,0,2023-11-24
+RX00395,P0074,Atorvastatine 20,20mg,1x/jour,30,1,2026-04-27
+RX00396,P0090,Paracétamol 1g,1g,3x/jour,5,0,2025-11-16
+RX00397,P0059,Sertraline 50,50mg,1x/jour,30,1,2025-12-11
+RX00398,P0034,Furosémide 40,40mg,1x/jour,14,1,2024-03-27
+RX00399,P0038,Ramipril 5,5mg,1x/jour,30,1,2026-02-04
+RX00400,P0016,Ibuprofène 400,400mg,3x/jour,5,0,2024-04-03
+RX00401,P0006,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-05-02
+RX00402,P0038,Amoxicilline 500,500mg,3x/jour,7,0,2023-10-31
+RX00403,P0036,Oméprazole 20,20mg,1x/jour,14,0,2024-07-07
+RX00404,P0007,Bisoprolol 5,5mg,1x/jour,30,1,2024-03-06
+RX00405,P0069,Amlodipine 5,5mg,1x/jour,30,1,2023-01-03
+RX00406,P0084,Héparine 5000,5000 UI,2x/jour,7,0,2026-05-24
+RX00407,P0048,Morphine 10,10mg,4x/jour,3,0,2023-06-20
+RX00408,P0091,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-06-24
+RX00409,P0093,Oméprazole 20,20mg,1x/jour,14,0,2025-04-16
+RX00410,P0079,Furosémide 40,40mg,1x/jour,14,1,2024-10-26
+RX00411,P0008,Paracétamol 1g,1g,3x/jour,5,0,2024-12-29
+RX00412,P0029,Ramipril 5,5mg,1x/jour,30,1,2023-12-28
+RX00413,P0033,Paracétamol 1g,1g,3x/jour,5,0,2026-01-05
+RX00414,P0085,Insuline Glargine,10 UI,1x/jour,30,1,2023-08-06
+RX00415,P0093,Prednisone 20,20mg,1x/jour,10,0,2024-06-11
+RX00416,P0081,Doxycycline 100,100mg,2x/jour,10,0,2026-02-02
+RX00417,P0027,Warfarine 5,5mg,1x/jour,90,1,2024-03-27
+RX00418,P0042,Ramipril 5,5mg,1x/jour,30,1,2024-02-22
+RX00419,P0075,Prednisone 20,20mg,1x/jour,10,0,2023-11-15
+RX00420,P0058,Bisoprolol 5,5mg,1x/jour,30,1,2025-06-07
+RX00421,P0048,Oméprazole 20,20mg,1x/jour,14,0,2025-09-08
+RX00422,P0012,Levothyroxine 50,50µg,1x/jour,30,1,2024-01-07
+RX00423,P0059,Ibuprofène 400,400mg,3x/jour,5,0,2023-12-27
+RX00424,P0025,Insuline Glargine,10 UI,1x/jour,30,1,2025-10-01
+RX00425,P0094,Ibuprofène 400,400mg,3x/jour,5,0,2024-07-31
+RX00426,P0003,Furosémide 40,40mg,1x/jour,14,1,2023-11-30
+RX00427,P0023,Prednisone 20,20mg,1x/jour,10,0,2026-05-29
+RX00428,P0025,Metformine 850,850mg,2x/jour,30,1,2023-10-21
+RX00429,P0010,Salbutamol spray,200µg,au besoin,30,1,2024-05-17
+RX00430,P0059,Prednisone 20,20mg,1x/jour,10,0,2023-07-25
+RX00431,P0093,Sertraline 50,50mg,1x/jour,30,1,2023-10-09
+RX00432,P0094,Paracétamol 1g,1g,3x/jour,5,0,2026-05-20
+RX00433,P0013,Prednisone 20,20mg,1x/jour,10,0,2025-02-25
+RX00434,P0003,Amlodipine 5,5mg,1x/jour,30,1,2023-01-28
+RX00435,P0098,Amoxicilline 500,500mg,3x/jour,7,0,2023-09-28
+RX00436,P0032,Metformine 850,850mg,2x/jour,30,1,2024-07-02
+RX00437,P0019,Doxycycline 100,100mg,2x/jour,10,0,2023-01-28
+RX00438,P0002,Amlodipine 5,5mg,1x/jour,30,1,2026-01-15
+RX00439,P0095,Morphine 10,10mg,4x/jour,3,0,2023-06-24
+RX00440,P0026,Oméprazole 20,20mg,1x/jour,14,0,2025-09-10
+RX00441,P0098,Insuline Glargine,10 UI,1x/jour,30,1,2025-06-28
+RX00442,P0021,Furosémide 40,40mg,1x/jour,14,1,2024-11-10
+RX00443,P0062,Oméprazole 20,20mg,1x/jour,14,0,2024-05-14
+RX00444,P0008,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-07-01
+RX00445,P0081,Alprazolam 0.25,0.25mg,2x/jour,14,0,2023-09-10
+RX00446,P0003,Amoxicilline 500,500mg,3x/jour,7,0,2023-07-30
+RX00447,P0070,Furosémide 40,40mg,1x/jour,14,1,2023-07-30
+RX00448,P0066,Salbutamol spray,200µg,au besoin,30,1,2023-10-18
+RX00449,P0001,Bisoprolol 5,5mg,1x/jour,30,1,2023-02-19
+RX00450,P0030,Salbutamol spray,200µg,au besoin,30,1,2025-02-28
+RX00451,P0019,Héparine 5000,5000 UI,2x/jour,7,0,2024-08-10
+RX00452,P0029,Prednisone 20,20mg,1x/jour,10,0,2023-08-19
+RX00453,P0063,Ibuprofène 400,400mg,3x/jour,5,0,2023-08-14
+RX00454,P0029,Amlodipine 5,5mg,1x/jour,30,1,2024-07-31
+RX00455,P0046,Metformine 850,850mg,2x/jour,30,1,2026-06-14
+RX00456,P0043,Amlodipine 5,5mg,1x/jour,30,1,2025-01-08
+RX00457,P0011,Amoxicilline 500,500mg,3x/jour,7,0,2026-05-23
+RX00458,P0020,Ibuprofène 400,400mg,3x/jour,5,0,2025-05-27
+RX00459,P0068,Morphine 10,10mg,4x/jour,3,0,2026-05-13
+RX00460,P0024,Salbutamol spray,200µg,au besoin,30,1,2023-11-04
+RX00461,P0086,Furosémide 40,40mg,1x/jour,14,1,2024-08-10
+RX00462,P0045,Amlodipine 5,5mg,1x/jour,30,1,2024-07-09
+RX00463,P0064,Héparine 5000,5000 UI,2x/jour,7,0,2024-06-27
+RX00464,P0092,Metformine 850,850mg,2x/jour,30,1,2023-01-05
+RX00465,P0020,Oméprazole 20,20mg,1x/jour,14,0,2024-10-17
+RX00466,P0019,Prednisone 20,20mg,1x/jour,10,0,2025-07-03
+RX00467,P0093,Levothyroxine 50,50µg,1x/jour,30,1,2023-05-18
+RX00468,P0015,Insuline Glargine,10 UI,1x/jour,30,1,2025-05-25
+RX00469,P0094,Ramipril 5,5mg,1x/jour,30,1,2023-10-24
+RX00470,P0012,Morphine 10,10mg,4x/jour,3,0,2023-09-19
+RX00471,P0024,Prednisone 20,20mg,1x/jour,10,0,2024-12-23
+RX00472,P0041,Levothyroxine 50,50µg,1x/jour,30,1,2025-05-18
+RX00473,P0062,Salbutamol spray,200µg,au besoin,30,1,2026-05-17
+RX00474,P0082,Morphine 10,10mg,4x/jour,3,0,2023-10-11
+RX00475,P0084,Bisoprolol 5,5mg,1x/jour,30,1,2025-02-23
+RX00476,P0054,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-10-15
+RX00477,P0069,Alprazolam 0.25,0.25mg,2x/jour,14,0,2025-10-05
+RX00478,P0069,Alprazolam 0.25,0.25mg,2x/jour,14,0,2024-04-16
+RX00479,P0050,Metformine 850,850mg,2x/jour,30,1,2026-04-04
+RX00480,P0092,Salbutamol spray,200µg,au besoin,30,1,2025-12-15
+RX00481,P0074,Bisoprolol 5,5mg,1x/jour,30,1,2023-06-28
+RX00482,P0031,Héparine 5000,5000 UI,2x/jour,7,0,2023-01-06
+RX00483,P0027,Paracétamol 1g,1g,3x/jour,5,0,2025-01-12
+RX00484,P0072,Levothyroxine 50,50µg,1x/jour,30,1,2023-10-01
+RX00485,P0015,Amoxicilline 500,500mg,3x/jour,7,0,2024-12-16
+RX00486,P0047,Oméprazole 20,20mg,1x/jour,14,0,2024-08-26
+RX00487,P0059,Oméprazole 20,20mg,1x/jour,14,0,2026-02-03
+RX00488,P0054,Bisoprolol 5,5mg,1x/jour,30,1,2024-03-07
+RX00489,P0029,Amoxicilline 500,500mg,3x/jour,7,0,2023-10-10
+RX00490,P0016,Oméprazole 20,20mg,1x/jour,14,0,2025-02-12
+RX00491,P0094,Paracétamol 1g,1g,3x/jour,5,0,2025-05-19
+RX00492,P0048,Amoxicilline 500,500mg,3x/jour,7,0,2023-08-06
+RX00493,P0085,Insuline Glargine,10 UI,1x/jour,30,1,2023-06-01
+RX00494,P0062,Doxycycline 100,100mg,2x/jour,10,0,2023-11-20
+RX00495,P0004,Oméprazole 20,20mg,1x/jour,14,0,2025-01-18
+RX00496,P0019,Metformine 850,850mg,2x/jour,30,1,2024-05-16
+RX00497,P0010,Paracétamol 1g,1g,3x/jour,5,0,2026-03-11
+RX00498,P0054,Oméprazole 20,20mg,1x/jour,14,0,2024-01-09
+RX00499,P0061,Oméprazole 20,20mg,1x/jour,14,0,2025-12-16
+RX00500,P0090,Furosémide 40,40mg,1x/jour,14,1,2025-08-20
